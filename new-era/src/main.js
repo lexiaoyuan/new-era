@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import './style.css'
 import {
   Pagination,
   Dialog,
@@ -70,7 +71,8 @@ import {
   Loading,
   MessageBox,
   Message,
-  Notification
+  Notification,
+  Link
 } from 'element-ui';
 
 Vue.use(Pagination);
@@ -136,6 +138,7 @@ Vue.use(Header);
 Vue.use(Aside);
 Vue.use(Main);
 Vue.use(Footer);
+Vue.use(Link);
 
 Vue.use(Loading.directive);
 
