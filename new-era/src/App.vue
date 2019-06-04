@@ -1,13 +1,13 @@
 <template>
   <div id="app">
     <!--<img src="./assets/logo.png">-->
-    <b-navbar class="app-nav-bar" toggleable="lg" type="" variant="" >
+    <b-navbar class="app-nav-bar navbar-expand-lg" toggleable="sm" type="" variant="" >
       <b-navbar-brand class="app-logo-title ml-5 mr-5" href="#">辉煌新时代，追梦新征程</b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
       <b-collapse id="nav-collapse" is-nav>
-        <b-navbar-nav>
+        <b-navbar-nav class="app-navbar-nav">
           <b-nav-item href="#">首页</b-nav-item>
           <b-nav-item href="#">新时代</b-nav-item>
           <b-nav-item href="#">新征程</b-nav-item>
@@ -37,11 +37,7 @@
 <script>
 export default {
   name: 'app',
-  data () {
-    return {
 
-    }
-  }
 }
 </script>
 
@@ -55,6 +51,9 @@ export default {
     background-color: #e70012;
   }
   .app-logo-title {
+    color: #fff;
+  }
+  .app-navbar-nav a {
     color: #fff;
   }
 </style>
