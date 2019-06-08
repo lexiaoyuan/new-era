@@ -59,8 +59,8 @@
 </template>
 
 <script>
+
   export default {
-    name: "app-picture-rotation",
     data() {
       return {
         slide: 0,
