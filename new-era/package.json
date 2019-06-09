@@ -10,9 +10,12 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "@babel/polyfill": "^7.4.4",
     "bootstrap": "^4.0.0-beta.2",
     "bootstrap-vue": "latest",
     "es6-promise": "^4.2.8",
+    "highcharts": "^7.1.2",
+    "mutationobserver-shim": "^0.3.3",
     "popper.js": "^1.12.9",
     "portal-vue": "^2.1.5",
     "vue": "^2.5.2",
