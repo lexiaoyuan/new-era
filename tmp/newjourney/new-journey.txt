@@ -1,0 +1,111 @@
+新征程
+(注意：一下所需图片必须全部压缩，但保证失真不严重)
+
+----导航栏----
+----一带一路“新丝路新梦想”----   
+
+/***
+
+1-2张高清大图
+图片命名：例：new-journey-belt-road-hd-img.png
+压缩，但保证失真不严重
+存储位置：/newjourney/new-journey-img/
+
+***/ 
+
+----不忘初心，砥砺前行----
+
+/***
+关于红船精神、智慧中国 、中国高铁、大国工匠的视频或图片，标题，简介，链接 各找3份
+
+图片命名：例：new-journey-heart-redship-img1.png
+（命名：new-journey-具体内容.png,比如红船精神的第一张就为redship-img1，其他类似）
+存储位置：/newjourney/new-journey-img/
+标题，简介，链接格式：
+heart: [
+  redshipSpirit: [
+    {
+      title: '红船精神',
+      brief: '.......',
+      link: 'http://'
+    },
+    {
+      title: '...',
+      brief: '.......',
+      link: 'http://'
+    },
+    {
+      ....
+    }
+  ],
+  wisdomChina: [
+    {
+      title: '智慧中国',
+      brief: '.......',
+      link: 'http://'
+    },
+    {
+      title: '...',
+      brief: '.......',
+      link: 'http://'
+    },
+    {
+      ....
+    }
+  ],
+  highRail: [
+    {
+      title: '中国高铁',
+      brief: '.......',
+      link: 'http://'
+    },
+    {
+      title: '...',
+      brief: '.......',
+      link: 'http://'
+    },
+    {
+      ....
+    }
+  ],
+  craftsmen: [
+    {
+      title: '大国工匠',
+      brief: '.......',
+      link: 'http://'
+    },
+    {
+      title: '...',
+      brief: '.......',
+      link: 'http://'
+    },
+    {
+      ....
+    }
+  ]
+]
+
+标题，简介，链接按上述格式存储在/newjourney/new-journey-heart.txt
+
+***/
+----2018这样“拼”出来，2019我们一起“拼”----
+/***
+
+  1个视频
+  命名：new-journey-together-video.mp4
+  存储位置：/newjourney/video/
+  1个视频截图+标题+简介+链接
+  命名：new-journey-together-img.png
+  存储位置：/newjourney/img/
+  尺寸：810px*500px
+  标题+简介+链接格式：
+  together: [
+    {
+      title: '2018这样“拼”出来，2019我们一起“拼”',
+      brief: '。。。。。',
+      link: 'http://....'
+    }
+  ]
+
+***/
+----底部声明、友情链接----
