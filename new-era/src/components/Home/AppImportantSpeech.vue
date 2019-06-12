@@ -9,7 +9,7 @@
     <!-- 讲话内容 -->
     <b-container class="mt-3" fluid>
       <b-row>
-        <b-col cols="2">
+        <b-col cols="3">
           <b-list-group class="text-center" v-b-scrollspy:listgroup-ex>
             <b-list-group-item href="#list-item-1">{{ speech[0].speechTime }}</b-list-group-item>
             <b-list-group-item href="#list-item-2">{{ speech[1].speechTime }}</b-list-group-item>
@@ -24,7 +24,7 @@
           </b-list-group>
         </b-col>
 
-        <b-col cols="10">
+        <b-col cols="9">
           <div id="listgroup-ex" style="position:relative; overflow-y:auto; height:500px">
             <h4 id="list-item-1">{{ speech[0].speechTitle }}</h4>
             <p class="app-important-speech-p">{{ speech[0].speechContent }}</p>

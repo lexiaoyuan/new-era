@@ -7,16 +7,18 @@
     <app-word-cloud></app-word-cloud>
     <app-important-speech></app-important-speech>
     <app-info-window></app-info-window>
+    <bottom-declare></bottom-declare>
   </div>
 </template>
 
 <script>
   import NavBar from './components/NavBar'
-  import AppCarousel from './components/AppCarousel'
-  import AppMarvelous from './components/AppMarvelous'
-  import AppWordCloud from './components/AppWordCloud'
-  import AppImportantSpeech from './components/AppImportantSpeech'
-  import AppInfoWindow from './components/AppInfoWindow'
+  import AppCarousel from './components/Home/AppCarousel'
+  import AppMarvelous from './components/Home/AppMarvelous'
+  import AppWordCloud from './components/Home/AppWordCloud'
+  import AppImportantSpeech from './components/Home/AppImportantSpeech'
+  import AppInfoWindow from './components/Home/AppInfoWindow'
+  import BottomDeclare from './components/BottomDeclare'
   export default {
     name: 'app',
     components: {
@@ -25,7 +27,8 @@
       AppMarvelous,
       AppWordCloud,
       AppImportantSpeech,
-      AppInfoWindow
+      AppInfoWindow,
+      BottomDeclare
     }
   }
 </script>

@@ -19,7 +19,7 @@
           class="d-block img-fluid w-100"
           width="1024"
           height="480"
-          src="../assets/img/app-carousel-img1.jpg"
+          src="./img/app-carousel-img1.jpg"
           alt="image slot"
         >
       </b-carousel-slide>
@@ -29,7 +29,7 @@
           class="d-block img-fluid w-100"
           width="1024"
           height="480"
-          src="../assets/img/app-carousel-img2.jpg"
+          src="./img/app-carousel-img2.jpg"
           alt="image slot"
         >
       </b-carousel-slide>
@@ -39,7 +39,7 @@
           class="d-block img-fluid w-100"
           width="1024"
           height="480"
-          src="../assets/img/app-carousel-img1.jpg"
+          src="./img/app-carousel-img1.jpg"
           alt="image slot"
         >
       </b-carousel-slide>
@@ -49,7 +49,7 @@
           class="d-block img-fluid w-100"
           width="1024"
           height="480"
-          src="../assets/img/app-carousel-img2.jpg"
+          src="./img/app-carousel-img2.jpg"
           alt="image slot"
         >
       </b-carousel-slide>

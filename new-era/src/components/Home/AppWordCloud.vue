@@ -16,7 +16,7 @@
             <p class="app-word-cloud-p">{{ wordCloudFullText2 }}</p>
           </b-col>
           <b-col cols="5" sm="5" class="text-center">
-            <b-img :src="require('../assets/img/app-word-cloud-fulltext.png')" fluid></b-img>
+            <b-img :src="require('./img/app-word-cloud-fulltext.png')" fluid></b-img>
           </b-col>
         </b-row>
       </b-container>
@@ -26,7 +26,7 @@
       <b-container fluid>
         <b-row align-h="around">
           <b-col cols="5" sm="5" class="text-center">
-            <b-img :src="require('../assets/img/app-word-cloud-idiom.png')" fluid></b-img>
+            <b-img :src="require('./img/app-word-cloud-idiom.png')" fluid></b-img>
           </b-col>
           <b-col cols="5" sm="5">
             <h2>报告中的成语词云分析</h2>
@@ -44,7 +44,7 @@
             <p class="app-word-cloud-p">{{ wordCloudVerb }}</p>
           </b-col>
           <b-col cols="5" sm="5" class="text-center">
-            <b-img :src="require('../assets/img/app-word-cloud-verb.png')" fluid></b-img>
+            <b-img :src="require('./img/app-word-cloud-verb.png')" fluid></b-img>
           </b-col>
         </b-row>
       </b-container>

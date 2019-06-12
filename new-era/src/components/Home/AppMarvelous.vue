@@ -26,7 +26,7 @@
   </div>
 </template>
 <script>
-import XChart from './HighCharts'
+import XChart from '../HighCharts'
 export default {
   name: "",
   data () {
