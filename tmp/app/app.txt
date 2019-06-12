@@ -57,24 +57,29 @@ speech: [
  
 /***
 
+5张关于新闻的截图
+命名：例：app-info-window-img1.png
+存储在/app-img/
+尺寸：470*280
+
 10条新闻 时间：xxxx年xx月xx日 标题 简介
 关于最近的一些新闻：比如：亚洲文明对话大会，五四100周年纪念、世园会、冬奥会、博鳌会、十九大
 时间顺序：离当前时间最近的在最上面
 记录格式：
-information: [
+info: [
   {
-    informationTime: '2019年6月18日',
-    informationTitle: '习近平在第二十三届圣彼得堡国际经济论坛全会上的致辞',
-    informationContent: `第二十三届圣彼得堡国际经济论坛全会7日在圣彼得堡举行，国家主席习近平出席并
+    infoTime: '2019年6月18日',
+    infoTitle: '习近平在第二十三届圣彼得堡国际经济论坛全会上的致辞',
+    infoContent: `第二十三届圣彼得堡国际经济论坛全会7日在圣彼得堡举行，国家主席习近平出席并
     发表题为《坚持可持续发展　共创繁荣美好世界》的致辞。`,
-    informationLink:'https://www.baidu.com/...'
+    infoLink:'https://www.baidu.com/...'
   },
   {
-    informationTime: '2019年6月18日',
-    informationitle: '习近平在第二十三届圣彼得堡国际经济论坛全会上的致辞',
-    informationContent: `第二十三届圣彼得堡国际经济论坛全会7日在圣彼得堡举行，国家主席习近平出席并
+    infoTime: '2019年6月18日',
+    infoTitle: '习近平在第二十三届圣彼得堡国际经济论坛全会上的致辞',
+    infoContent: `第二十三届圣彼得堡国际经济论坛全会7日在圣彼得堡举行，国家主席习近平出席并
     发表题为《坚持可持续发展　共创繁荣美好世界》的致辞。`,
-    informationLink:'https://www.baidu.com/...'
+    infoLink:'https://www.baidu.com/...'
   },
   {
     ...
@@ -84,7 +89,7 @@ information: [
   }
 ]
 
-按上述格式写在app-information-window.txt中
+按上述格式写在app-info-window.txt中
 
 ***/
 
