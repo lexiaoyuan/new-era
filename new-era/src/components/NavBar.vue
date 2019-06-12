@@ -7,10 +7,10 @@
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav class="app-navbar-nav">
-          <b-nav-item href="#">首页</b-nav-item>
-          <b-nav-item href="#">新时代</b-nav-item>
-          <b-nav-item href="#">新征程</b-nav-item>
-          <b-nav-item href="#">新青年</b-nav-item>
+          <b-nav-item> <router-link to="/">首页</router-link></b-nav-item>
+          <b-nav-item><router-link to="/newera">新时代</router-link></b-nav-item>
+          <b-nav-item>新征程</b-nav-item>
+          <b-nav-item>新青年</b-nav-item>
         </b-navbar-nav>
 
         <!-- Right aligned nav items -->
