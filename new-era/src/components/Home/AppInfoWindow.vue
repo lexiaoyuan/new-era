@@ -16,19 +16,23 @@
             @sliding-start="onSlideStart" @sliding-end="onSlideEnd">
             <b-carousel-slide>
               <img slot="img" class="d-block img-fluid w-100" width="470" height="280"
-                src="./img/app-info-window-img1.jpg" alt="image slot">
+                src="./img/app-info-window-img1.png" alt="image slot">
             </b-carousel-slide>
             <b-carousel-slide>
               <img slot="img" class="d-block img-fluid w-100" width="470" height="280"
-                src="./img/app-info-window-img2.jpg" alt="image slot">
+                src="./img/app-info-window-img2.png" alt="image slot">
             </b-carousel-slide>
             <b-carousel-slide>
               <img slot="img" class="d-block img-fluid w-100" width="470" height="280"
-                src="./img/app-info-window-img1.jpg" alt="image slot">
+                src="./img/app-info-window-img3.png" alt="image slot">
             </b-carousel-slide>
             <b-carousel-slide>
               <img slot="img" class="d-block img-fluid w-100" width="470" height="280"
-                src="./img/app-info-window-img2.jpg" alt="image slot">
+                src="./img/app-info-window-img4.png" alt="image slot">
+            </b-carousel-slide>
+            <b-carousel-slide>
+              <img slot="img" class="d-block img-fluid w-100" width="470" height="280"
+                src="./img/app-info-window-img5.png" alt="image slot">
             </b-carousel-slide>
           </b-carousel>
         </b-col>
