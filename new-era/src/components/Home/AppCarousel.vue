@@ -19,8 +19,8 @@
           class="d-block img-fluid w-100"
           width="1024"
           height="480"
-          src="./img/app-carousel-img1.jpg"
-          alt="image slot"
+          src="./img/app-carousel-img1.png"
+          alt="新时代"
         >
       </b-carousel-slide>
       <b-carousel-slide>
@@ -29,8 +29,8 @@
           class="d-block img-fluid w-100"
           width="1024"
           height="480"
-          src="./img/app-carousel-img2.jpg"
-          alt="image slot"
+          src="./img/app-carousel-img2.png"
+          alt="新时代"
         >
       </b-carousel-slide>
       <b-carousel-slide>
@@ -39,8 +39,8 @@
           class="d-block img-fluid w-100"
           width="1024"
           height="480"
-          src="./img/app-carousel-img1.jpg"
-          alt="image slot"
+          src="./img/app-carousel-img3.png"
+          alt="新时代"
         >
       </b-carousel-slide>
       <b-carousel-slide>
@@ -49,11 +49,20 @@
           class="d-block img-fluid w-100"
           width="1024"
           height="480"
-          src="./img/app-carousel-img2.jpg"
-          alt="image slot"
+          src="./img/app-carousel-img4.png"
+          alt="新时代"
         >
       </b-carousel-slide>
-
+      <b-carousel-slide>
+        <img
+          slot="img"
+          class="d-block img-fluid w-100"
+          width="1024"
+          height="480"
+          src="./img/app-carousel-img5.png"
+          alt="新时代"
+        >
+      </b-carousel-slide>
     </b-carousel>
   </div>
 </template>

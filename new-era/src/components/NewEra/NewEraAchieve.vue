@@ -10,6 +10,11 @@
           </fieldset>
         </b-col>
       </b-row>
+      <b-row>
+        <b-col>
+          <h4 class="ml-5 mt-2">辉煌中国</h4>
+        </b-col>
+      </b-row>
       <b-row align-h="around">
         <b-col sm="auto" class="mt-4">
           <b-card 

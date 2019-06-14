@@ -12,7 +12,13 @@
         </b-col>
         <b-col cols="2" sm="2"></b-col>
       </b-row>
-      <hr class="bg-light w-75">
+      <b-row align-h="center">
+        <b-col cols="2"></b-col>
+        <b-col cols="8">
+          <hr class="bg-light">
+        </b-col>
+        <b-col cols="2"></b-col>
+      </b-row>
       <b-row class="text-center">
         <b-col cols="12" sm="12">
           <p>Copyright &copy; 2019-6-12 <span class="ml-4">辉煌新时代，追梦新征程</span> </p>
