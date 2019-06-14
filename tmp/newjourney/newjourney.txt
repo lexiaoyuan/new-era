@@ -93,10 +93,10 @@ heart: [
 
   1个视频
   命名：new-journey-together-video.mp4
-  存储位置：/newjourney/video/
+  存储位置：/newjourney/new-journey-video/
   1个视频截图+标题+简介+链接
   命名：new-journey-together-img.png
-  存储位置：/newjourney/img/
+  存储位置：/newjourney/new-journey-img/
   尺寸：810px*500px
   标题+简介+链接格式：
   together: [
