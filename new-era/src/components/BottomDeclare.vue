@@ -19,18 +19,18 @@
         </b-col>
         <b-col cols="2"></b-col>
       </b-row>
-      <b-row class="text-center">
-        <b-col cols="12" sm="12">
+      <b-row align-h="center">
+        <b-col cols="8" sm="8">
           <p>Copyright &copy; 2019-6-12 <span class="ml-4">辉煌新时代，追梦新征程</span> </p>
         </b-col>
       </b-row>
-      <b-row class="text-center">
-        <b-col cols="12" sm="12">
+      <b-row align-h="center">
+        <b-col cols="8" sm="8">
           <p>本网站素材来自互联网，如内容有侵权，请联系删除</p>
         </b-col>
       </b-row>
-      <b-row class="text-center">
-        <b-col cols="12" sm="12">
+      <b-row align-h="center">
+        <b-col cols="8" sm="8">
           <p>鄂ICP备18020158号 <span class="ml-4">联系邮箱：2775886918@qq.com</span> </p>
         </b-col>
       </b-row>
