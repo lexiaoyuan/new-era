@@ -9,7 +9,7 @@
         <b-col cols="4"><hr class="layui-bg-red"></b-col>
       </b-row>
       <b-row>
-        <b-col class="text-center ow animated heartBeat">
+        <b-col class="text-center ow animated heartBeat" data-wow-duration="2s" data-wow-delay="1s">
           <b-img :src="require('../NewEra/img/newera-call.png')"></b-img>
         </b-col>
       </b-row>

@@ -5,7 +5,7 @@
         <b-col class="ml-4 mr-4 mt-4">
           <fieldset class="layui-elem-field layui-field-title">
             <legend>
-              <h3 class="wow animated bounce" data-wow-duration="1s" data-wow-delay="0.5s">新时代的伟大成就</h3>
+              <h3 class="wow animated rotateIn" data-wow-duration="1s" data-wow-delay="0.5s">新时代的伟大成就</h3>
             </legend>
           </fieldset>
         </b-col>
@@ -13,12 +13,12 @@
       <!-- 辉煌中国 -->
       <b-row>
         <b-col>
-          <h4 class="ml-5 mt-2 wow animated bounce" data-wow-duration="1s" data-wow-delay="0.5s">辉煌中国</h4>
+          <h4 class="ml-5 mt-2 wow animated slideInDown" data-wow-duration="1s" data-wow-delay="0.5s">辉煌中国</h4>
         </b-col>
       </b-row>
       <b-row align-h="around">
 
-        <b-col lg="3" sm="auto" class="mt-4 wow animated pulse">
+        <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
           <b-card :title="video[0].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text>
@@ -28,7 +28,7 @@
           </b-card>
         </b-col>
 
-        <b-col lg="3" sm="auto" class="mt-4 wow animated pulse">
+        <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
           <b-card :title="video[1].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text>
@@ -38,7 +38,7 @@
           </b-card>
         </b-col>
 
-        <b-col lg="3" sm="auto" class="mt-4 wow animated pulse">
+        <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
           <b-card :title="video[2].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text>
@@ -48,7 +48,7 @@
           </b-card>
         </b-col>
 
-        <b-col lg="3" sm="auto" class="mt-4 wow animated pulse">
+        <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
           <b-card :title="video[0].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text>
@@ -62,12 +62,12 @@
       <!-- 大国工程 -->
       <b-row>
         <b-col>
-          <h4 class="ml-5 mt-2 wow animated bounce">大国工程</h4>
+          <h4 class="ml-5 mt-2 wow animated zoomIn">大国工程</h4>
         </b-col>
       </b-row>
       <b-row align-h="around">
 
-        <b-col lg="3" sm="auto" class="mt-4 wow animated pulse">
+        <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
           <b-card :title="video[0].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text>
@@ -77,7 +77,7 @@
           </b-card>
         </b-col>
 
-        <b-col lg="3" sm="auto" class="mt-4 wow animated pulse">
+        <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
           <b-card :title="video[1].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text>
@@ -87,7 +87,7 @@
           </b-card>
         </b-col>
 
-        <b-col lg="3" sm="auto" class="mt-4 wow animated pulse">
+        <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
           <b-card :title="video[2].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text>
@@ -97,7 +97,7 @@
           </b-card>
         </b-col>
 
-        <b-col lg="3" sm="auto" class="mt-4 wow animated pulse">
+        <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
           <b-card :title="video[0].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text>
@@ -111,12 +111,12 @@
       <!-- 国之重器 -->
       <b-row>
         <b-col>
-          <h4 class="ml-5 mt-2 wow animated bounce">国之重器</h4>
+          <h4 class="ml-5 mt-2 wow animated flipInX">国之重器</h4>
         </b-col>
       </b-row>
       <b-row align-h="around">
 
-        <b-col lg="3" sm="auto" class="mt-4 wow animated pulse">
+        <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
           <b-card :title="video[0].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text>
@@ -126,7 +126,7 @@
           </b-card>
         </b-col>
 
-        <b-col lg="3" sm="auto" class="mt-4 wow animated pulse">
+        <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
           <b-card :title="video[1].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text>
@@ -136,7 +136,7 @@
           </b-card>
         </b-col>
 
-        <b-col lg="3" sm="auto" class="mt-4 wow animated pulse">
+        <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
           <b-card :title="video[2].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text>
@@ -146,7 +146,7 @@
           </b-card>
         </b-col>
 
-        <b-col lg="3" sm="auto" class="mt-4 wow animated pulse">
+        <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
           <b-card :title="video[0].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text>
@@ -160,12 +160,12 @@
       <!-- 航拍中国 -->
       <b-row>
         <b-col>
-          <h4 class="ml-5 mt-2 wow animated bounce">航拍中国</h4>
+          <h4 class="ml-5 mt-2 wow animated slideInDown">航拍中国</h4>
         </b-col>
       </b-row>
       <b-row align-h="around">
 
-        <b-col lg="3" sm="auto" class="mt-4 wow animated pulse">
+        <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
           <b-card :title="video[0].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text>
@@ -175,7 +175,7 @@
           </b-card>
         </b-col>
 
-        <b-col lg="3" sm="auto" class="mt-4 wow animated pulse">
+        <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
           <b-card :title="video[1].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text>
@@ -185,7 +185,7 @@
           </b-card>
         </b-col>
 
-        <b-col lg="3" sm="auto" class="mt-4 wow animated pulse">
+        <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
           <b-card :title="video[2].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text>
@@ -195,7 +195,7 @@
           </b-card>
         </b-col>
 
-        <b-col lg="3" sm="auto" class="mt-4 wow animated pulse">
+        <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
           <b-card :title="video[0].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text>
@@ -209,12 +209,12 @@
       <!-- 超级工程 -->
       <b-row>
         <b-col>
-          <h4 class="ml-5 mt-2 wow animated bounce">超级工程</h4>
+          <h4 class="ml-5 mt-2 wow animated flipInY">超级工程</h4>
         </b-col>
       </b-row>
       <b-row align-h="around">
 
-        <b-col lg="3" sm="auto" class="mt-4 wow animated pulse">
+        <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
           <b-card :title="video[0].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text>
@@ -224,7 +224,7 @@
           </b-card>
         </b-col>
 
-        <b-col lg="3" sm="auto" class="mt-4 wow animated pulse">
+        <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
           <b-card :title="video[1].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text>
@@ -234,7 +234,7 @@
           </b-card>
         </b-col>
 
-        <b-col lg="3" sm="auto" class="mt-4 wow animated pulse">
+        <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
           <b-card :title="video[2].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text>
@@ -244,7 +244,7 @@
           </b-card>
         </b-col>
 
-        <b-col lg="3" sm="auto" class="mt-4 wow animated pulse">
+        <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
           <b-card :title="video[0].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text>
@@ -258,7 +258,7 @@
       <!-- 大美中国 -->
       <b-row>
         <b-col>
-          <h4 class="ml-5 mt-2 wow animated bounce">大美中国</h4>
+          <h4 class="ml-5 mt-2 wow animated rotateIn">大美中国</h4>
         </b-col>
       </b-row>
       <b-row align-h="around">

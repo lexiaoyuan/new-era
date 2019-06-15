@@ -11,7 +11,7 @@
         <b-col class="ml-4 mr-4 mt-4">
           <fieldset class="layui-elem-field layui-field-title">
             <legend>
-              <h3 class="wow animated bounce" data-wow-duration="1s" data-wow-delay="0.5s">中国一分钟</h3>
+              <h3 class="wow animated pulse" data-wow-duration="1s" data-wow-delay="0.5s">中国一分钟</h3>
             </legend>
           </fieldset>
         </b-col>

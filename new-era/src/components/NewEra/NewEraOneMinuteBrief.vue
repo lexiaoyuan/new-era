@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-jumbotron bg-variant="light" text-variant="dark" class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+    <b-jumbotron bg-variant="light" text-variant="dark" class="wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
       <template slot="header">一分钟，会发生什么呢？</template>
 
       <template slot="lead">
