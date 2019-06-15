@@ -1,12 +1,12 @@
 <template>
   <div>
     <b-navbar class="app-nav-bar navbar-expand-sm bg-pure-red">
-      <b-navbar-brand class="app-logo-title text-light" href="#">辉煌新时代，追梦新征程</b-navbar-brand>
+      <b-navbar-brand class="text-light app-hover" href="#">辉煌新时代，追梦新征程</b-navbar-brand>
 
       <b-collapse id="nav-collapse" is-nav>
-        <b-navbar-nav class="app-navbar-nav text-light">
-          <b-nav-item>
-            <router-link to="/" class="active">首页</router-link>
+        <b-navbar-nav class="text-light">
+          <b-nav-item >
+            <router-link to="/" :class="classObject">首页</router-link>
           </b-nav-item>
           <b-nav-item>
             <router-link to="/newera" class="text-light">新时代</router-link>
@@ -39,12 +39,37 @@
 
 <script>
   export default {
-
+    data () {
+      return {
+        isActive: true
+      }
+    },
+    computed: {
+      classObject: function () {
+        return {
+          active: this.isActive
+        }
+      }
+    },
+    methods: {
+      isClick: function () {
+        console.log("点击了首页")
+      }
+    }
   }
 
 </script>
 
 <style scoped>
+  .app-hover:hover {
+    color: #ec6c00 !important;
+  }
+  .app-hover:active {
+    color: #f8f9fa !important;
+  }
+  .app-hover:visited {
+    color: #f8f9fa !important;
+  }
   .bg-pure-red {
     background-color: #e70012;
   }
