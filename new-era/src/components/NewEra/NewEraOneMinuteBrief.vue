@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-jumbotron bg-variant="light" text-variant="dark">
+    <b-jumbotron bg-variant="light" text-variant="dark" class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
       <template slot="header">一分钟，会发生什么呢？</template>
 
       <template slot="lead">
@@ -16,8 +16,18 @@
   </div>
 </template>
 <script>
+  import { WOW } from 'wowjs'
   export default {
-
+    mounted () {
+      var wow = new WOW({
+        boxClass: 'wow',
+        animateClass: 'animated',
+        offset: 30,
+        mobile: true,
+        live: false
+      })
+      wow.init()
+    }
   }
 </script>
 <style scoped>

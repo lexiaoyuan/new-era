@@ -2,20 +2,20 @@
   <div>
     <div class="bg-light pt-2 mt-5 pb-4">
       <!-- -------------十九大词云-------------------- -->
-      <div class="d-flex justify-content-sm-between">
-        <hr class="w-25" />
-        <h3>十九大词云</h3>
-        <hr class="w-25">
+      <div class="d-flex justify-content-sm-around">
+        <hr class="layui-bg-red w-25" />
+        <h3 class="wow animated flipInX" data-wow-duration="1s" data-wow-delay="0.5s">十九大词云</h3>
+        <hr class="layui-bg-red w-25">
       </div>
       <!-- 报告全文高频词分析 -->
       <b-container fluid>
         <b-row align-h="around">
-          <b-col cols="5" sm="5">
+          <b-col class="wow animated slideInLeft" cols="5" sm="5" data-wow-duration="1s" data-wow-delay="0.5s">
             <h2>报告全文高频词分析</h2>
             <p class="app-word-cloud-p">{{ wordCloudFullText1 }}</p>
             <p class="app-word-cloud-p">{{ wordCloudFullText2 }}</p>
           </b-col>
-          <b-col cols="5" sm="5" class="text-center">
+          <b-col cols="5" sm="5" class="text-center wow animated slideInRight" data-wow-duration="1s" data-wow-delay="0.5s">
             <b-img :src="require('./img/app-word-cloud-fulltext.png')" fluid></b-img>
           </b-col>
         </b-row>
@@ -25,10 +25,10 @@
     <div class="pt-2 mt-5">
       <b-container fluid>
         <b-row align-h="around">
-          <b-col cols="5" sm="5" class="text-center">
+          <b-col cols="5" sm="5" class="text-center wow animated slideInRight" data-wow-duration="1s" data-wow-delay="0.5s">
             <b-img :src="require('./img/app-word-cloud-idiom.png')" fluid></b-img>
           </b-col>
-          <b-col cols="5" sm="5">
+          <b-col cols="5" sm="5" class="wow animated slideInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
             <h2>报告中的成语词云分析</h2>
             <p class="app-word-cloud-p">{{ wordCloudIdiom }}</p>
           </b-col>
@@ -39,11 +39,11 @@
     <div class="bg-light pt-4 mt-5 pb-4">
       <b-container fluid>
         <b-row align-h="around">
-          <b-col cols="5" sm="5">
+          <b-col cols="5" sm="5" class="wow animated slideInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
             <h2>高频动词的词云分析</h2>
             <p class="app-word-cloud-p">{{ wordCloudVerb }}</p>
           </b-col>
-          <b-col cols="5" sm="5" class="text-center">
+          <b-col cols="5" sm="5" class="text-center wow animated slideInRight" data-wow-duration="1s" data-wow-delay="0.5s">
             <b-img :src="require('./img/app-word-cloud-verb.png')" fluid></b-img>
           </b-col>
         </b-row>
@@ -52,6 +52,7 @@
   </div>
 </template>
 <script>
+  import { WOW } from 'wowjs'
   export default {
     data () {
       return {
@@ -79,6 +80,16 @@
         而努力奋斗！
         `
       }
+    },
+    mounted () {
+      var wow = new WOW({
+        boxClass: 'wow',
+        animateClass: 'animated',
+        offset: 30,
+        mobile: true,
+        live: false
+      })
+      wow.init()
     }
   }
 

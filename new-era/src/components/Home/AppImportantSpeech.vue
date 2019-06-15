@@ -1,10 +1,10 @@
 <template>
   <div>
     <!-- ------------重要讲话----------- -->
-    <div class="d-flex justify-content-sm-between mt-5">
-      <hr class="w-25" />
-      <h3>重要讲话</h3>
-      <hr class="w-25">
+    <div class="d-flex justify-content-sm-around mt-5">
+      <hr class="w-25 layui-bg-red" />
+      <h3 class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">重要讲话</h3>
+      <hr class="w-25 layui-bg-red">
     </div>
     <!-- 讲话内容 -->
     <b-container class="mt-3" fluid>
@@ -53,6 +53,7 @@
   </div>
 </template>
 <script>
+  import { WOW } from 'wowjs'
   export default {
     data() {
       return {
@@ -124,9 +125,18 @@
     中共中央总书记、国家主席、中央军委主席习近平出席纪念会并发表重要讲话。`,
             speechLink: 'http://www.xinhuanet.com/politics/leaders/2019-01/02/c_1123937757.htm'
           },
-
         ]
       }
+    },
+    mounted () {
+      var wow = new WOW({
+        boxClass: 'wow',
+        animateClass: 'animated',
+        offset: 30,
+        mobile: true,
+        live: false
+      })
+      wow.init()
     }
   }
 

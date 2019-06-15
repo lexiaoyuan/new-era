@@ -11,13 +11,13 @@
         <b-col class="ml-4 mr-4 mt-4">
           <fieldset class="layui-elem-field layui-field-title">
             <legend>
-              <h3>中国一分钟</h3>
+              <h3 class="wow animated bounce" data-wow-duration="1s" data-wow-delay="0.5s">中国一分钟</h3>
             </legend>
           </fieldset>
         </b-col>
       </b-row>
       <b-row align-h="around">
-        <b-col sm="auto" class="mt-3">
+        <b-col sm="auto" class="mt-3 wow animated fadeInUp">
           <b-card 
             :title="video[0].title"
             :img-src="require('./img/newera-one-minute-video-guangxi.jpg')" 
@@ -34,7 +34,7 @@
             <b-button href="#" variant="primary">查看详情</b-button>
           </b-card>
         </b-col>
-        <b-col sm="auto" class="mt-3">
+        <b-col sm="auto" class="mt-3 wow animated fadeInUp">
           <b-card 
             :title="video[1].title" 
             :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
@@ -50,7 +50,7 @@
             <b-button href="#" variant="primary">查看详情</b-button>
           </b-card>
         </b-col>
-        <b-col sm="auto" class="mt-3">
+        <b-col sm="auto" class="mt-3 wow animated fadeInUp">
           <b-card 
             :title="video[2].title" 
             :img-src="require('./img/newera-one-minute-video-guangxi.jpg')" 
@@ -66,7 +66,7 @@
             <b-button href="#" variant="primary">查看详情</b-button>
           </b-card>
         </b-col>
-        <b-col sm="auto" class="mt-3">
+        <b-col sm="auto" class="mt-3 wow animated fadeInUp">
           <b-card 
             :title="video[0].title"
             :img-src="require('./img/newera-one-minute-video-guangxi.jpg')" 
@@ -83,7 +83,7 @@
             <b-button href="#" variant="primary">查看详情</b-button>
           </b-card>
         </b-col>
-        <b-col sm="auto" class="mt-3">
+        <b-col sm="auto" class="mt-3 wow animated fadeInUp">
           <b-card 
             :title="video[1].title" 
             :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
@@ -99,7 +99,7 @@
             <b-button href="#" variant="primary">查看详情</b-button>
           </b-card>
         </b-col>
-        <b-col sm="auto" class="mt-3">
+        <b-col sm="auto" class="mt-3 wow animated fadeInUp">
           <b-card 
             :title="video[2].title" 
             :img-src="require('./img/newera-one-minute-video-guangxi.jpg')" 
@@ -120,6 +120,7 @@
   </div>
 </template>
 <script>
+  import { WOW } from 'wowjs'
   export default {
     data () {
       return {
@@ -141,6 +142,16 @@
           }
         ]
       }
+    },
+    mounted () {
+      var wow = new WOW({
+        boxClass: 'wow',
+        animateClass: 'animated',
+        offset: 30,
+        mobile: true,
+        live: false
+      })
+      wow.init()
     }
   }
 

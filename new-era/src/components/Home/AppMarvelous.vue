@@ -1,13 +1,13 @@
 <template>
   <div>
-    <div class="d-flex justify-content-sm-between mt-5">
-      <hr class="w-25" />
-      <h3>厉害了，我的国</h3>
-      <hr class="w-25">
+    <div class="d-flex justify-content-sm-around mt-5">
+      <hr class="layui-bg-red w-25">
+      <h3 class="wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">厉害了，我的国</h3>
+      <hr class="layui-bg-red w-25">
     </div>
     <b-container fluid>
       <b-row>
-        <b-col cols="4" sm="4">
+        <b-col class="wow animated fadeInUp" cols="4" sm="4" data-wow-duration="1.5s" data-wow-delay="0.5s">
           <b-card class="mt-5" title="国内生产总值" sub-title="GDP">
             <b-card-text>
               {{ GDPdescibe }}
@@ -18,7 +18,7 @@
             <b-link href="#" class="card-link">查看详情</b-link>
           </b-card>
         </b-col>
-        <b-col cols="8" sm="8">
+        <b-col class="wow animated fadeInUp" cols="8" sm="8" data-wow-duration="2.5s" data-wow-delay="0.5s">
           <x-chart id="xchart" :options="options"></x-chart>
         </b-col>
       </b-row>
@@ -27,6 +27,7 @@
 </template>
 <script>
 import XChart from '../HighCharts'
+import { WOW } from 'wowjs'
 export default {
   name: "",
   data () {
@@ -128,6 +129,16 @@ export default {
   },
   components: {
     XChart
+  },
+  mounted () {
+    var wow = new WOW({
+      boxClass: 'wow',
+      animateClass: 'animated',
+      offset: 30,
+      mobile: true,
+      live: false
+    })
+    wow.init()
   }
 }
 </script>

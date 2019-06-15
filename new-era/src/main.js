@@ -11,10 +11,12 @@ import Vuex from  'vuex'
 import 'es6-promise/auto'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
+import animate from 'animate.css'
 
 Vue.use(BootstrapVue)
 Vue.use(PortalVue)
 Vue.use(Vuex)
+Vue.use(animate)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

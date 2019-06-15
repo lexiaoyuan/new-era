@@ -1,10 +1,10 @@
 <template>
   <div>
     <!-- ------------新时代动态----------- -->
-    <div class="d-flex justify-content-sm-between mt-5">
-      <hr class="w-25" />
-      <h3>新时代动态</h3>
-      <hr class="w-25">
+    <div class="d-flex justify-content-sm-around mt-5">
+      <hr class="w-25 layui-bg-red" />
+      <h3 class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">新时代动态</h3>
+      <hr class="w-25 layui-bg-red">
     </div>
 
     <!-- --------------信息窗口------------- -->
@@ -75,6 +75,7 @@
   </div>
 </template>
 <script>
+  import { WOW } from 'wowjs'
   export default {
     data() {
       return {
@@ -159,6 +160,16 @@
       onSlideEnd(slide) {
         this.sliding = false
       }
+    },
+    mounted () {
+      var wow = new WOW({
+        boxClass: 'wow',
+        animateClass: 'animated',
+        offset: 30,
+        mobile: true,
+        live: false
+      })
+      wow.init()
     }
   }
 
