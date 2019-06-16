@@ -26,26 +26,46 @@
 
         <b-col cols="9">
           <div id="listgroup-ex" style="position:relative; overflow-y:auto; height:500px">
-            <h4 id="list-item-1">{{ speech[0].speechTitle }}</h4>
+            <h4 id="list-item-1">
+              <b-link :href="speech[0].speechLink">{{ speech[0].speechTitle }}</b-link>
+            </h4>
             <p class="app-important-speech-p">{{ speech[0].speechContent }}</p>
-            <h4 id="list-item-2">{{ speech[1].speechTitle }}</h4>
+            <h4 id="list-item-2">
+              <b-link :href="speech[1].speechLink">{{ speech[1].speechTitle }}</b-link>
+            </h4>
             <p class="app-important-speech-p">{{ speech[1].speechContent }}</p>
-            <h4 id="list-item-3">{{ speech[2].speechTitle }}</h4>
+            <h4 id="list-item-3">
+              <b-link :href="speech[2].speechLink">{{ speech[2].speechTitle }}</b-link>
+            </h4>
             <p class="app-important-speech-p">{{ speech[2].speechContent }}</p>
-            <h4 id="list-item-4">{{ speech[3].speechTitle }}</h4>
+            <h4 id="list-item-4">
+              <b-link :href="speech[3].speechLink">{{ speech[3].speechTitle }}</b-link>
+            </h4>
             <p class="app-important-speech-p">{{ speech[3].speechContent }}</p>
-            <h4 id="list-item-5">{{ speech[4].speechTitle }}</h4>
+            <h4 id="list-item-5">
+              <b-link :href="speech[4].speechLink">{{ speech[4].speechTitle }}</b-link>
+            </h4>
             <p class="app-important-speech-p">{{ speech[4].speechContent }}</p>
-            <h4 id="list-item-6">{{ speech[5].speechTitle }}</h4>
+            <h4 id="list-item-6">
+              <b-link :href="speech[5].speechLink">{{ speech[5].speechTitle }}</b-link>
+            </h4>
             <p class="app-important-speech-p">{{ speech[5].speechContent }}</p>
-            <h4 id="list-item-7">{{ speech[6].speechTitle }}</h4>
-            <p class="app-important-speech-p">{{ speech[2].speechContent }}</p>
-            <h4 id="list-item-8">{{ speech[7].speechTitle }}</h4>
-            <p class="app-important-speech-p">{{ speech[3].speechContent }}</p>
-            <h4 id="list-item-9">{{ speech[8].speechTitle }}</h4>
-            <p class="app-important-speech-p">{{ speech[4].speechContent }}</p>
-            <h4 id="list-item-10">{{ speech[9].speechTitle }}</h4>
-            <p class="app-important-speech-p">{{ speech[5].speechContent }}</p>
+            <h4 id="list-item-7">
+              <b-link :href="speech[6].speechLink">{{ speech[6].speechTitle }}</b-link>
+            </h4>
+            <p class="app-important-speech-p">{{ speech[6].speechContent }}</p>
+            <h4 id="list-item-8">
+              <b-link :href="speech[7].speechLink">{{ speech[7].speechTitle }}</b-link>
+            </h4>
+            <p class="app-important-speech-p">{{ speech[7].speechContent }}</p>
+            <h4 id="list-item-9">
+              <b-link :href="speech[8].speechLink">{{ speech[8].speechTitle }}</b-link>
+            </h4>
+            <p class="app-important-speech-p">{{ speech[8].speechContent }}</p>
+            <h4 id="list-item-10">
+              <b-link :href="speech[9].speechLink">{{ speech[9].speechTitle }}</b-link>
+            </h4>
+            <p class="app-important-speech-p">{{ speech[9].speechContent }}</p>
           </div>
         </b-col>
       </b-row>
@@ -53,7 +73,9 @@
   </div>
 </template>
 <script>
-  import { WOW } from 'wowjs'
+  import {
+    WOW
+  } from 'wowjs'
   export default {
     data() {
       return {
@@ -68,7 +90,7 @@
             speechTime: '2019年6月5日',
             speechTitle: '习近平在中俄建交70周年纪念大会上的讲话',
             speechContent: `2019年6月5日， 国家主席习近平和俄罗斯总统普京在莫斯科大剧院共同出席中俄建交70周年纪念大会，
-    习近平在会上发表题为《携手努力，并肩前行，开创新时代中俄关系的美好未来》的致辞`,
+    习近平在会上发表题为《携手努力，并肩前行，开创新时代中俄关系的美好未来》的致辞。`,
             speechLink: 'http://www.xinhuanet.com/world/2019-06/06/c_1124589505.htm'
           },
           {
@@ -128,7 +150,7 @@
         ]
       }
     },
-    mounted () {
+    mounted() {
       var wow = new WOW({
         boxClass: 'wow',
         animateClass: 'animated',

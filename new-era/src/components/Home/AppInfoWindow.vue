@@ -39,32 +39,45 @@
         <b-col cols="8" sm="8">
           <b-list-group>
             <b-list-group-item class="d-flex justify-content-between align-items-center">
-              <span class="d-inline-block text-truncate" style="max-width: 500px;">{{ info[0].infoTitle }}</span>
+              <span class="d-inline-block text-truncate" style="max-width: 500px;">
+                <b-link :href="info[0].infoLink"> {{ info[0].infoTitle }}</b-link>
+
+              </span>
               <small>[{{ info[0].infoTime }}]</small>
             </b-list-group-item>
 
             <b-list-group-item class="d-flex justify-content-between align-items-center">
-              <span class="d-inline-block text-truncate" style="max-width: 500px;">{{ info[1].infoTitle }}</span>
+              <span class="d-inline-block text-truncate" style="max-width: 500px;">
+                <b-link :href="info[1].infoLink"> {{ info[1].infoTitle }}</b-link>
+              </span>
               <small>[{{ info[1].infoTime }}]</small>
             </b-list-group-item>
 
             <b-list-group-item class="d-flex justify-content-between align-items-center">
-              <span class="d-inline-block text-truncate" style="max-width: 500px;">{{ info[2].infoTitle }}</span>
+              <span class="d-inline-block text-truncate" style="max-width: 500px;">
+                <b-link :href="info[2].infoLink"> {{ info[2].infoTitle }}</b-link>
+              </span>
               <small>[{{ info[2].infoTime }}]</small>
             </b-list-group-item>
 
             <b-list-group-item class="d-flex justify-content-between align-items-center">
-              <span class="d-inline-block text-truncate" style="max-width: 500px;">{{ info[3].infoTitle }}</span>
+              <span class="d-inline-block text-truncate" style="max-width: 500px;">
+                <b-link :href="info[3].infoLink"> {{ info[3].infoTitle }}</b-link>
+              </span>
               <small>[{{ info[3].infoTime }}]</small>
             </b-list-group-item>
 
             <b-list-group-item class="d-flex justify-content-between align-items-center">
-              <span class="d-inline-block text-truncate" style="max-width: 500px;">{{ info[4].infoTitle }}</span>
+              <span class="d-inline-block text-truncate" style="max-width: 500px;">
+                <b-link :href="info[4].infoLink"> {{ info[4].infoTitle }}</b-link>
+              </span>
               <small>[{{ info[4].infoTime }}]</small>
             </b-list-group-item>
 
             <b-list-group-item class="d-flex justify-content-between align-items-center">
-              <span class="d-inline-block text-truncate" style="max-width: 500px;">{{ info[5].infoTitle }}</span>
+              <span class="d-inline-block text-truncate" style="max-width: 500px;">
+                <b-link :href="info[5].infoLink"> {{ info[5].infoTitle }}</b-link>
+              </span>
               <small>[{{ info[5].infoTime }}]</small>
             </b-list-group-item>
 
@@ -75,7 +88,9 @@
   </div>
 </template>
 <script>
-  import { WOW } from 'wowjs'
+  import {
+    WOW
+  } from 'wowjs'
   export default {
     data() {
       return {
@@ -161,7 +176,7 @@
         this.sliding = false
       }
     },
-    mounted () {
+    mounted() {
       var wow = new WOW({
         boxClass: 'wow',
         animateClass: 'animated',

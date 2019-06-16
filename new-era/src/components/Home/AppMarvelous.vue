@@ -15,7 +15,7 @@
 
             <b-card-text>统计周期：2013年第1季度-2019年第一季度</b-card-text>
 
-            <b-link href="#" class="card-link">查看详情</b-link>
+            <b-link href="http://www.gov.cn/shuju/index.htm" class="card-link">查看详情</b-link>
           </b-card>
         </b-col>
         <b-col class="wow animated fadeInUp" cols="8" sm="8" data-wow-duration="2.5s" data-wow-delay="0.5s">

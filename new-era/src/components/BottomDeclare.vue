@@ -8,6 +8,9 @@
             <span class="font-weight-bold">相关链接：</span>
             <span>学习进行时</span>
             <span>习近平报道专集</span>
+            <span>中国政府网</span>
+            <span>人民网</span>
+            <span>新华网</span>
           </p>
         </b-col>
         <b-col cols="2" sm="2"></b-col>
