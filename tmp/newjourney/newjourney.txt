@@ -6,8 +6,9 @@
 
 /***
 
-1-2张高清大图
-图片命名：例：new-journey-belt-road-hd-img.png
+4-5张高清大图
+图片命名：例：new-journey-belt-road-hd-img1.png
+尺寸：1350*300
 压缩，但保证失真不严重
 存储位置：/newjourney/new-journey-img/
 
@@ -20,6 +21,7 @@
 
 图片命名：例：new-journey-heart-redship-img1.png
 （命名：new-journey-具体内容.png,比如红船精神的第一张就为redship-img1，其他类似）
+图片尺寸：300*169
 存储位置：/newjourney/new-journey-img/
 标题，简介，链接格式：
 heart: [
@@ -89,23 +91,4 @@ heart: [
 
 ***/
 ----未来一起走----
-/***
-
-  1个视频
-  命名：new-journey-together-video.mp4
-  存储位置：/newjourney/new-journey-video/
-  1个视频截图+标题+简介+链接
-  命名：new-journey-together-img.png
-  存储位置：/newjourney/new-journey-img/
-  尺寸：810px*500px
-  标题+简介+链接格式：
-  together: [
-    {
-      title: '2018这样“拼”出来，2019我们一起“拼”',
-      brief: '。。。。。',
-      link: 'http://....'
-    }
-  ]
-
-***/
 ----底部声明、友情链接----
