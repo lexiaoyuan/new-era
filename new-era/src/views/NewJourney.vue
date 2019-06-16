@@ -1,15 +1,20 @@
 <template>
   <div>
       <nav-bar></nav-bar>
-      <p>新征程</p>
+      <new-journey-belt-road></new-journey-belt-road>
+      <new-journey-heart></new-journey-heart>
       <router-view></router-view>
   </div>
 </template>
 <script>
 import NavBar from '../components/NavBar'
+import NewJourneyBeltRoad from '../components/NewJourney/NewJourneyBeltRoad'
+import NewJourneyHeart from '../components/NewJourney/NewJourneyHeart'
 export default {
     components: {
-        NavBar
+        NavBar,
+        NewJourneyBeltRoad,
+        NewJourneyHeart
     }
 }
 </script>

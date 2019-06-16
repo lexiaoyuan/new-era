@@ -62,7 +62,7 @@
       <!-- 大国工程 -->
       <b-row>
         <b-col>
-          <h4 class="ml-5 mt-2 wow animated zoomIn">大国工程</h4>
+          <h4 class="ml-5 mt-2 wow animated slideInDown">大国工程</h4>
         </b-col>
       </b-row>
       <b-row align-h="around">

@@ -11,7 +11,7 @@
     <b-container class="bg-light mt-3 p-3" fluid>
       <b-row>
         <b-col cols="4" sm="4">
-          <b-carousel class="mt-4" id="carousel-1" v-model="slide" :interval="4000" controls indicators
+          <b-carousel class="mt-4" id="carousel-1" v-model="slide" :interval="4000" controls fade indicators
             background="#ababab" img-width="470" img-height="280" style="text-shadow: 1px 1px 2px #333;"
             @sliding-start="onSlideStart" @sliding-end="onSlideEnd">
             <b-carousel-slide>
