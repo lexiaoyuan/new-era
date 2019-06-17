@@ -52,9 +52,9 @@ heart: [
       link: 'http://'
     },
     {
-      title: '...',
-      brief: '.......',
-      link: 'http://'
+      title: '亚洲文明对话大会：中国智慧又创一壮举',
+      brief: '亚洲文明对话大会史无前例，具有特殊的标志性意义',
+      link: 'http://'https://article.xuexi.cn/html/10167250182831550541.html?study_style_id=feeds_default&showmenu=false&source=&pid=&ptype=-1&source=share&share_to=copylink
     },
     {
       ....
@@ -80,16 +80,20 @@ heart: [
   craftsmen: [
     {
       title: '大国工匠',
-      brief: '.......',
-      link: 'http://'
+      brief: '大国工匠曹彦生：为导弹雕刻翅膀',
+      link: 'http://'https://article.xuexi.cn/html/1756631956488718.html?study_style_id=feeds_default&showmenu=false&source=&pid=&ptype=-1&source=share&share_to=copylink
     },
     {
-      title: '...',
-      brief: '.......',
-      link: 'http://'
+      title: '李淑团：“磨”出来的大国女工匠',
+      brief: '现年48岁的全国三八红旗手李淑团是河南三门峡中原量仪公司的首席员工、高级磨工。在她手中，一个个最原始的铁块变成一个个精致零件，有的还被载上航天飞船飞入太空。',
+      link: 'http://'https://article.xuexi.cn/html/11971346274614721521.html?study_style_id=feeds_default&showmenu=false&source=&pid=&ptype=-1&source=share&share_to=copylink
     },
     {
-      ....
+      title:愿得展功勤，流藻垂华芬
+      brief:世界上最漫长、最寂寞、最耗费人之生命的工作，莫过于编写词典。
+
+从少年春风，到皓首苍颜，穷尽一生热血。
+      link:https://zhuanlan.zhihu.com/p/29613404
     }
   ]
 ]
