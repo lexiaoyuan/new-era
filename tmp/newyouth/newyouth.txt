@@ -112,9 +112,9 @@ voice：[
 power: [
   navy: [
     {
-      title: '海军2019超燃宣传片之类的。。。',
-      brief: '.......',
-      link: 'http://....'
+      title:中国陆军2019征兵宣传片！
+      brief: 战无不胜，所向披靡，中国陆军宣传片火热来袭，超燃军力让人感到热血沸腾！
+      link:http://www.yidianzixun.com/article/V_027aqTg1
     },
     {
       title:超燃！2019海军招飞宣传片，少侠了解一下？
