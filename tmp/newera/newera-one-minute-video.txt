@@ -6,7 +6,6 @@
 *
 ***/
 
-
 video: [
   {
     title: '中国一分钟——瞬息万象',
@@ -28,5 +27,10 @@ video: [
           创造GDP1.57亿元。`,
     link: 'https://v.qq.com/x/cover/dkqrhax0ls5xfw6/h06075r4qxi.html'
   },
+<<<<<<< HEAD
+=======
+  
+
+>>>>>>> beeec2ab4fc5d3bcd47a04ee149cca76496025d7
 ]
 
