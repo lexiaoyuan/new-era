@@ -18,7 +18,7 @@
       </b-row>
       <b-row>
         <b-col class="text-center mt-3">
-          <video :src="require('./new-journey-video/new-journey-together-video.mp4')" controls preload></video>
+          <video :src="require('./new-journey-video/new-journey-together-video.mp4')" controls preload :poster="require('./new-journey-img/new-journey-together-img.gif')"></video>
         </b-col>
       </b-row>
     </b-container>
