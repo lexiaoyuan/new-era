@@ -1,17 +1,20 @@
 <template>
   <div>
-      <nav-bar></nav-bar>
-      <p>新青年</p>
-      <router-view></router-view>
+    <nav-bar></nav-bar>
+    <new-youth-brief></new-youth-brief>
+    <router-view></router-view>
   </div>
 </template>
 <script>
-import NavBar from '../components/NavBar'
-export default {
+  import NavBar from '../components/NavBar'
+  import NewYouthBrief from '../components/NewYouth/NewYouthBrief'
+  export default {
     components: {
-        NavBar
+      NavBar,
+      NewYouthBrief
     }
-}
+  }
+
 </script>
 <style scoped>
 
