@@ -112,14 +112,13 @@ voice：[
 power: [
   navy: [
     {
-      title:中国陆军2019征兵宣传片！
-      brief: 战无不胜，所向披靡，中国陆军宣传片火热来袭，超燃军力让人感到热血沸腾！
-      link:http://www.yidianzixun.com/article/V_027aqTg1
+      title:
+      brief:
+      link:
     },
     {
       title:超燃！2019海军招飞宣传片，少侠了解一下？
       brief:精英中的精英，王牌中的王牌，尖刀中的尖刀。驾驶“飞鲨”搏击海天、勇闯大洋、走向世界，中国海军召唤不甘平凡的你，并肩战斗、逐梦海天！
-,
       link:https://m.weibo.cn/1972589043/4293309457705986
     },
     {
@@ -128,9 +127,9 @@ power: [
   ],
   landForce: [
     {
-      title: '.....',
-      brief: '.....',
-      link: 'http://...'
+      title:中国陆军2019征兵宣传片！
+      brief:战无不胜，所向披靡，中国陆军宣传片火热来袭，超燃军力让人感到热血沸腾！
+      link: http://www.yidianzixun.com/article/V_027aqTg1
     },
     {
       ....
@@ -138,9 +137,9 @@ power: [
   ],
   airForce: [
     {
-      title: '.....',
-      brief: '.....',
-      link: 'http://...'
+      title:中国空军2019招飞宣传片
+      brief:每一个时代都有英雄，他们跟随着时代，又创造属于自己的时代。如果问，为什么要飞行，只因，梦在云霄上。--献给怀有飞行梦想的你们，超燃！
+      link:http://www.yidianzixun.com/article/V_027aqTg1
     },
     {
       ....
