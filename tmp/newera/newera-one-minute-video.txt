@@ -27,10 +27,26 @@ video: [
           创造GDP1.57亿元。`,
     link: 'https://v.qq.com/x/cover/dkqrhax0ls5xfw6/h06075r4qxi.html'
   },
-<<<<<<< HEAD
-=======
-  
-
->>>>>>> beeec2ab4fc5d3bcd47a04ee149cca76496025d7
+    {
+    title: '中国一分钟——广西',
+    brief: `一分钟，184人在桂林山水间自在畅游;
+            一分钟，556袋柳州螺蛳粉通过电商销往国内外;
+            一分钟，完成植树造林4491平方米;一分钟,对东盟进出口34.4万元 ...`,
+    link: 'http://www.gxnews.com.cn/staticpages/20181022/newgx5bcd05e9-17737734.shtml'
+  },
+    {
+    title: '中国一分钟——北京',
+    brief: `一分钟，119人穿过太和门游览故宫
+            一分钟，64人在颐和园泛舟漫步
+            一分钟，13人到“鸟巢”重温激情时刻 ...`,
+    link: 'https://v.qq.com/x/page/r077418u58l.html'
+  },
+   {
+    title: '中国一分钟——青海',
+    brief: `一分钟，21条裸鲤幼苗 诞生在青海湖裸鲤培育中心
+            一分钟，可可西里巡护员能巡山166米
+            一分钟，奔驰在青藏铁路格拉段的列车可前进1600米 ...`,
+    link: 'http://www.iqiyi.com/w_19s1oqb47x.html'
+  },
 ]
 
