@@ -3,33 +3,38 @@
 flash: [
   meAndMotherland: [
     {
-      title:'桂林理工大学献礼祖国'
-      brief:'燃！桂林理工大学辅导员齐唱《我和我的祖国》，集体献礼祖国70周年华诞！'
-      link：'https://m.weibo.cn/detail/4360562160902173'
+      title:'《我和我的祖国》--清华大学'
+      brief:'表白祖国清华正芳华'
+      link：'https://www.bilibili.com/video/av39396785/?p=2'
 
     },
     {
-      title:'桂林理工大学献礼祖国青春告白祖国'
-      brief:'桂林理工大学学子，告白献礼新中国成立70周年华诞！'
-      link：'https://m.weibo.cn/detail/4366911783992399'
+      title:'《我和我的祖国》--陕西师范大学'
+      brief:'“西部红烛”为祖国闪耀！'
+      link：'https://www.bilibili.com/video/av39396785/?p=4'
     },
     {
-      ....
+      title:'《我和我的祖国》--武汉大学'
+      brief:'黉门新启唱祖国'
+      link：'https://www.bilibili.com/video/av39396785/?p=5'
     }
   ],
   singMotherland: [
      {
-      title: '超燃表白，河北大学《我和我的祖国》',
-      brief: '70年来河大人与祖国同呼吸共命运，70年来河大人秉承“实事求是”的校训，矢志不渝，艰苦奋斗。听河北大学师生共唱赞歌，礼赞新中国70华诞！送上我们对祖国的一份献礼我爱你，中国！',
-      link：'https://m.weibo.cn/3405206944/4382821151509184'
+      title: '《歌唱祖国》--厦门大学'
+      brief: '青年强，则国强；青年兴，则民族兴。祖国万岁！',
+      link：'https://www.bilibili.com/video/av51146701/?p=2'
     },
     {
-      title: '重大土木师生唱响《我和我的祖国》',
-      brief: '在祖国七十华诞，重大建校九十周年之际，重庆大学土木工程学院师生汇聚一堂，唱响对祖国和重大的祝福~',
-      link：'https://m.weibo.cn/1875333245/4382760099780510'
+      title: '《歌唱祖国》--浙江大学',
+      brief: '大不自多，海纳百川；惟学无际，际于天地。青春，为祖国发声。',
+      link：'https://www.bilibili.com/video/av51146701/?p=7'
     },
     {
-      ....
+      title: '《歌唱祖国》--新疆大学',
+      brief: '祖国，我的祖国，祝福你，我的祖国。'
+      link：'https://www.bilibili.com/video/av51837550/?p=5'
     }
   ]
 ]
+
