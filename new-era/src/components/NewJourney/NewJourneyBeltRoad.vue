@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-container fluid style="padding-left: 0; padding-right: 0;">
+    <b-container fluid class="deletePx">
       <swiper :options="swiperOption">
         <swiper-slide>
           <b-img :src="require('./new-journey-img/new-journey-belt-road-hd-img1.jpeg')" fluid-grow></b-img>
@@ -53,6 +53,8 @@
 
 </script>
 <style scoped>
- 
+.deletePx {
+  padding-left: 0; padding-right: 0;
+}
 
 </style>

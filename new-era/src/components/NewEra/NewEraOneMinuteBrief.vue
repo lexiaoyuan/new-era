@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-jumbotron bg-variant="light" text-variant="dark" class="wow animated fadeInDown">
+    <b-jumbotron bg-variant="light" text-variant="dark" class="wow animated fadeInUp">
       <template slot="header">
         {{ brief.title }}
         <b-img :src="require('./img/newera-one-minute-brief-img.png')" fluid rounded class="newera-one-minute-brief-img mb-5 ml-3"></b-img>
