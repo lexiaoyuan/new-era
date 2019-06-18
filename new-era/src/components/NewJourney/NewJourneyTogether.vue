@@ -9,7 +9,7 @@
 
     <b-container>
       <b-row>
-        <b-col cols="12" class="text-center mt-3">
+        <b-col class="text-center mt-3">
           <h4>2018这样“拼”出来，2019我们一起“拼”</h4>
           <small>
             视频来源：<b-link href="http://www.gov.cn/xinwen/2019-03/02/content_5370104.htm">中国政府网</b-link>
