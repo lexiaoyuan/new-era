@@ -1,7 +1,6 @@
 /*这里按格式写内容，注意相关符号为英文（比如逗号，），缩进为2个空格，文件保存的编码统一为utf-8 */
 
-flash: [
-  meAndMotherland: [
+meAndMotherland: [
     {
       title:'桂林理工大学献礼祖国'
       brief:'燃！桂林理工大学辅导员齐唱《我和我的祖国》，集体献礼祖国70周年华诞！'
@@ -14,8 +13,16 @@ flash: [
       link：'https://m.weibo.cn/detail/4366911783992399'
     },
     {
-      ....
-    }
+      title:'桂林理工大学献礼祖国'
+      brief:'燃！桂林理工大学辅导员齐唱《我和我的祖国》，集体献礼祖国70周年华诞！'
+      link：'https://m.weibo.cn/detail/4360562160902173'
+
+    },
+    {
+      title:'桂林理工大学献礼祖国青春告白祖国'
+      brief:'桂林理工大学学子，告白献礼新中国成立70周年华诞！'
+      link：'https://m.weibo.cn/detail/4366911783992399'
+    },
   ],
   singMotherland: [
      {
@@ -32,4 +39,3 @@ flash: [
       ....
     }
   ]
-]
