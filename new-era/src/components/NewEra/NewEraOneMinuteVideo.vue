@@ -18,16 +18,9 @@
       </b-row>
       <b-row align-h="around">
         <b-col sm="auto" class="mt-3 wow animated fadeInUp">
-          <b-card 
-            :title="video[0].title"
-            :img-src="require('./img/newera-one-minute-video-guangxi.jpg')" 
-            img-alt="Image" 
-            img-top
-            tag="article" 
-            style="max-width: 23rem;"
-            class="mb-2"
-            >
-            <b-card-text>
+          <b-card :title="video[0].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
+            img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
+            <b-card-text class="text-indent">
               {{ video[0].brief }}
             </b-card-text>
 
@@ -35,15 +28,9 @@
           </b-card>
         </b-col>
         <b-col sm="auto" class="mt-3 wow animated fadeInUp">
-          <b-card 
-            :title="video[1].title" 
-            :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
-            img-alt="Image" 
-            img-top
-            tag="article"
-            style="max-width: 23rem;" 
-            class="mb-2">
-            <b-card-text>
+          <b-card :title="video[1].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
+            img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
+            <b-card-text class="text-indent">
               {{ video[1].brief }}
             </b-card-text>
 
@@ -51,15 +38,9 @@
           </b-card>
         </b-col>
         <b-col sm="auto" class="mt-3 wow animated fadeInUp">
-          <b-card 
-            :title="video[2].title" 
-            :img-src="require('./img/newera-one-minute-video-guangxi.jpg')" 
-            img-alt="Image" 
-            img-top
-            tag="article" 
-            style="max-width: 23rem;"
-            class="mb-2">
-            <b-card-text>
+          <b-card :title="video[2].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
+            img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
+            <b-card-text class="text-indent">
               {{ video[2].brief }}
             </b-card-text>
 
@@ -67,16 +48,9 @@
           </b-card>
         </b-col>
         <b-col sm="auto" class="mt-3 wow animated fadeInUp">
-          <b-card 
-            :title="video[0].title"
-            :img-src="require('./img/newera-one-minute-video-guangxi.jpg')" 
-            img-alt="Image" 
-            img-top
-            tag="article" 
-            style="max-width: 23rem;"
-            class="mb-2"
-            >
-            <b-card-text>
+          <b-card :title="video[0].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
+            img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
+            <b-card-text class="text-indent">
               {{ video[0].brief }}
             </b-card-text>
 
@@ -84,15 +58,9 @@
           </b-card>
         </b-col>
         <b-col sm="auto" class="mt-3 wow animated fadeInUp">
-          <b-card 
-            :title="video[1].title" 
-            :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
-            img-alt="Image" 
-            img-top
-            tag="article"
-            style="max-width: 23rem;" 
-            class="mb-2">
-            <b-card-text>
+          <b-card :title="video[1].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
+            img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
+            <b-card-text class="text-indent">
               {{ video[1].brief }}
             </b-card-text>
 
@@ -100,15 +68,9 @@
           </b-card>
         </b-col>
         <b-col sm="auto" class="mt-3 wow animated fadeInUp">
-          <b-card 
-            :title="video[2].title" 
-            :img-src="require('./img/newera-one-minute-video-guangxi.jpg')" 
-            img-alt="Image" 
-            img-top
-            tag="article" 
-            style="max-width: 23rem;"
-            class="mb-2">
-            <b-card-text>
+          <b-card :title="video[2].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
+            img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
+            <b-card-text class="text-indent">
               {{ video[2].brief }}
             </b-card-text>
 
@@ -120,30 +82,37 @@
   </div>
 </template>
 <script>
-  import { WOW } from 'wowjs'
+  import {
+    WOW
+  } from 'wowjs'
   export default {
-    data () {
+    data() {
       return {
-        video: [
-          {
-            title: '广西一分钟',
-            brief: '关于广西一分钟的简短描述，关于广西一分钟的简短描述，关于广西一分钟的简短描述，',
-            link: 'http://.....'
+        video: [{
+            title: '中国一分钟——瞬息万象',
+            brief: `中国每一分钟，都发生着巨大改变，改革开放四十年，造就中国奇迹。
+                    一分钟，你能做什么？农民窦正宝能耕地十来个平方，工人江勇所在钢厂可以出产9吨钢材，
+                    军人许利强能带领战斗机群巡航祖国 ...`,
+            link: 'https://v.qq.com/x/cover/n6j4h0i09jdfmvj/j0565vcieff.html'
           },
           {
-            title: '广西一分钟',
-            brief: '关于广西一分钟的简短描述，关于广西一分钟的简短描述，关于广西一分钟的简短描述，',
-            link: 'http://.....'
+            title: '中国一分钟——跬步致远',
+            brief: `每一分钟的努力，汇聚中国力量，普通的你我，成就中国奇迹。一分钟，世界在发生什么？
+                    55名外国人来到中国，2370.7万元的商品进入中国，国人境外旅游消费36.07万美元，
+                    超过2300部手机从中国销往全球。`,
+            link: 'https://v.qq.com/x/cover/xy5w2esegjk7d7m/j0603howf5w.html?'
           },
           {
-            title: '广西一分钟',
-            brief: '关于广西一分钟的简短描述，关于广西一分钟的简短描述，关于广西一分钟的简短描述，',
-            link: 'http://.....'
-          }
+            title: '中国一分钟——美美与共',
+            brief: `每一分钟，世界都与中国紧密相连，中国奇迹，与世界共精彩。一分钟，中国会发生什么？
+                  移动支付金额3.79亿元，“复兴号”高铁前进5833米，“神威·太湖之光”运算750亿亿次， 
+                  创造GDP1.57亿元。`,
+            link: 'https://v.qq.com/x/cover/dkqrhax0ls5xfw6/h06075r4qxi.html'
+          },
         ]
       }
     },
-    mounted () {
+    mounted() {
       var wow = new WOW({
         boxClass: 'wow',
         animateClass: 'animated',
@@ -157,15 +126,17 @@
 
 </script>
 <style scoped>
-  
   fieldset {
     margin: 0 2px;
   }
 
   legend {
-      border: 0;
-      width: auto;
-      margin-bottom: 0px;
+    border: 0;
+    width: auto;
+    margin-bottom: 0px;
   }
 
+  .text-indent {
+    text-indent: 2rem;
+  }
 </style>
