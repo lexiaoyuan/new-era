@@ -99,10 +99,10 @@
         </b-col>
 
         <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
-          <b-card :title="greatPowerPolitics[0].title" :img-src="require('./img/newera-achieve-greatPowerPolitics-1.png')"
+          <b-card :title="greatPowerPolitics[3].title" :img-src="require('./img/newera-achieve-greatPowerPolitics-1.png')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text class="text-indent">
-              {{ greatPowerPolitics[0].brief }}
+              {{ greatPowerPolitics[3].brief }}
             </b-card-text>
             <b-button href="#" variant="primary">查看详情</b-button>
           </b-card>
@@ -148,10 +148,10 @@
         </b-col>
 
         <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
-          <b-card :title="greatTool[0].title" :img-src="require('./img/newera-achieve-greatTool-1.png')"
+          <b-card :title="greatTool[3].title" :img-src="require('./img/newera-achieve-greatTool-1.png')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text class="text-indent">
-              {{ greatTool[0].brief }}
+              {{ greatTool[3].brief }}
             </b-card-text>
             <b-button href="#" variant="primary">查看详情</b-button>
           </b-card>
