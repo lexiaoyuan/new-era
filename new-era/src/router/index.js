@@ -12,23 +12,36 @@ export default new Router({
     {
       path: '/',
       name: 'Home',
-      component: Home
+      component: Home,
+      meta: {
+        title: '首页'
+      }
     },
     {
       path: '/newera',
       name: 'NewEra',
-      component: NewEra
+      component: NewEra,
+      meta: {
+        title: '新时代'
+      }
     },
     {
       path: '/newjourney',
       name: 'NewJourney',
-      component: NewJourney
+      component: NewJourney,
+      meta: {
+        title: '新征程'
+      }
     },
     {
       path: '/newyouth',
       name: 'NewYouth',
-      component: NewYouth
+      component: NewYouth,
+      meta: {
+        title: '新青年'
+      }
     }
-
   ]
 })
+
+

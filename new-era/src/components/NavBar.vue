@@ -1,22 +1,14 @@
 <template>
   <div>
     <b-navbar class="app-nav-bar navbar-expand-sm bg-pure-red">
-      <b-navbar-brand class="text-light app-hover" href="#">辉煌新时代，追梦新征程</b-navbar-brand>
+      <b-navbar-brand href="#">辉煌新时代，追梦新征程</b-navbar-brand>
 
       <b-collapse id="nav-collapse" is-nav>
-        <b-navbar-nav class="text-light">
-          <b-nav-item >
-            <router-link to="/" :class="classObject">首页</router-link>
-          </b-nav-item>
-          <b-nav-item>
-            <router-link to="/newera" class="text-light">新时代</router-link>
-          </b-nav-item>
-          <b-nav-item>
-            <router-link to="/newjourney" class="text-light">新征程</router-link>
-          </b-nav-item>
-          <b-nav-item>
-            <router-link to="/newyouth" class="text-light">新青年</router-link>
-          </b-nav-item>
+        <b-navbar-nav>
+          <b-nav-item to="/">首页</b-nav-item>
+          <b-nav-item to="newera">新时代</b-nav-item>
+          <b-nav-item to="newjourney" >新征程</b-nav-item>
+          <b-nav-item to="newyouth">新青年</b-nav-item>
         </b-navbar-nav>
 
         <!-- Right aligned nav items -->
@@ -30,8 +22,8 @@
           <b-nav-item-dropdown class="app-navbar-language" text="中文" right>
             <b-dropdown-item href="#">English</b-dropdown-item>
           </b-nav-item-dropdown>
-
         </b-navbar-nav>
+
       </b-collapse>
     </b-navbar>
   </div>
@@ -39,43 +31,21 @@
 
 <script>
   export default {
-    data () {
-      return {
-        isActive: true
-      }
-    },
-    computed: {
-      classObject: function () {
-        return {
-          active: this.isActive
-        }
-      }
-    },
-    methods: {
-      isClick: function () {
-        console.log("点击了首页")
-      }
-    }
+    
   }
 
 </script>
 
 <style scoped>
-  .app-hover:hover {
-    color: #ec6c00 !important;
-  }
-  .app-hover:active {
-    color: #f8f9fa !important;
-  }
-  .app-hover:visited {
-    color: #f8f9fa !important;
-  }
   .bg-pure-red {
     background-color: #e70012;
   }
-
-  .active {
-    color: #ec6c00;
+  
+  .nav-link {
+    color: #f8f9fa !important;
+  }
+  .router-link-exact-active {
+    color: #ec6c00 !important;
   }
 
 </style>
