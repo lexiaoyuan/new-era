@@ -23,7 +23,7 @@
       </b-row>
       <b-row>
         <b-col class="text-center mt-3">
-          <video :src="require('../NewJourney/new-journey-video/new-journey-together-video.mp4')" controls preload :poster="require('../NewJourney/new-journey-img/new-journey-together-img.gif')"></video>
+          <video :src="require('./new-youth-video/newyouth-voice-newera-come.mp4')" controls preload :poster="require('./new-youth-img/newyouth-voice-newera-come.png')"></video>
         </b-col>
       </b-row>
       <!-- 美丽中国如何绘就 -->
@@ -37,7 +37,7 @@
       </b-row>
       <b-row>
         <b-col class="text-center mt-3">
-          <video :src="require('../NewJourney/new-journey-video/new-journey-together-video.mp4')" controls preload :poster="require('../NewJourney/new-journey-img/new-journey-together-img.gif')"></video>
+          <video :src="require('./new-youth-video/newyouth-voice-beautiful-china.mp4')" controls preload width="640" height="360" :poster="require('./new-youth-img/newyouth-voice-beautiful-china.png')"></video>
         </b-col>
       </b-row>
     </b-container>

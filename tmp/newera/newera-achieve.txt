@@ -73,7 +73,7 @@ achieve: [
       {
       title: '大国重器——造血通脉',
       brief: `中国是世界上最大的能源生产国和消费国。在这个关系国家繁荣发展、人民生活改善、社会长治久安的战略领域，中国的态度是明确的——着力推动能源生产利用方式变革，建设一个清洁低碳、安全高效的现代能源体系。备，正成为造血通脉的利器。`,
-      link: 'http://jingji.cctv.com/2018/02/26/ARTI8JaqmExXh36Ibvhaedk8180226.shtml'
+      link: 'http://tv.cctv.com/2018/03/01/VIDE95KQu6Ks4w3sBUMqntQp180301.shtml'
     },
 
   ],
