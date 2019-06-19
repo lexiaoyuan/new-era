@@ -19,28 +19,28 @@
         </b-col>
         <b-col sm="auto" class="mt-3 wow animated fadeInUp">
           <b-img :src="require('./new-youth-img/newyouth-flash-glut.png')" fluid rounded></b-img>
-          <h5 class="mt-2 mb-2">{{ meAndMotherland[0].title }}</h5>
-          <p class="text-truncate new-youth-flash-p">{{ meAndMotherland[0].brief }}</p>
+          <h5 class="mt-2 mb-2">{{ meAndMotherland[1].title }}</h5>
+          <p class="text-truncate new-youth-flash-p">{{ meAndMotherland[1].brief }}</p>
         </b-col>
         <b-col sm="auto" class="mt-3 wow animated fadeInUp">
           <b-img :src="require('./new-youth-img/newyouth-flash-glut.png')" fluid rounded></b-img>
-          <h5 class="mt-2 mb-2">{{ meAndMotherland[0].title }}</h5>
-          <p class="text-truncate new-youth-flash-p">{{ meAndMotherland[0].brief }}</p>
+          <h5 class="mt-2 mb-2">{{ meAndMotherland[2].title }}</h5>
+          <p class="text-truncate new-youth-flash-p">{{ meAndMotherland[2].brief }}</p>
         </b-col>
         <b-col sm="auto" class="mt-3 wow animated fadeInUp">
           <b-img :src="require('./new-youth-img/newyouth-flash-glut.png')" fluid rounded></b-img>
-          <h5 class="mt-2 mb-2">{{ meAndMotherland[0].title }}</h5>
-           <p class="text-truncate new-youth-flash-p">{{ meAndMotherland[0].brief }}</p>
+          <h5 class="mt-2 mb-2">{{ meAndMotherland[3].title }}</h5>
+          <p class="text-truncate new-youth-flash-p">{{ meAndMotherland[3].brief }}</p>
         </b-col>
         <b-col sm="auto" class="mt-3 wow animated fadeInUp">
           <b-img :src="require('./new-youth-img/newyouth-flash-glut.png')" fluid rounded></b-img>
-          <h5 class="mt-2 mb-2">{{ meAndMotherland[0].title }}</h5>
-           <p class="text-truncate new-youth-flash-p">{{ meAndMotherland[0].brief }}</p>
+          <h5 class="mt-2 mb-2">{{ singMotherland[0].title }}</h5>
+          <p class="text-truncate new-youth-flash-p">{{ singMotherland[0].brief }}</p>
         </b-col>
         <b-col sm="auto" class="mt-3 wow animated fadeInUp">
           <b-img :src="require('./new-youth-img/newyouth-flash-glut.png')" fluid rounded></b-img>
-          <h5 class="mt-2 mb-2">{{ meAndMotherland[0].title }}</h5>
-          <p class="text-truncate new-youth-flash-p">{{ meAndMotherland[0].brief }}</p>
+          <h5 class="mt-2 mb-2">{{ singMotherland[0].title }}</h5>
+          <p class="text-truncate new-youth-flash-p">{{ singMotherland[0].brief }}</p>
         </b-col>
       </b-row>
     </b-container>
@@ -63,6 +63,16 @@
             brief: '桂林理工大学学子，告白献礼新中国成立70周年华诞！',
             link: 'https://m.weibo.cn/detail/4366911783992399'
           },
+          {
+            title: '桂林理工大学献礼祖国',
+            brief: '燃！桂林理工大学辅导员齐唱《我和我的祖国》，集体献礼祖国70周年华诞！',
+            link: 'https://m.weibo.cn/detail/4360562160902173'
+          },
+          {
+            title: '桂林理工大学献礼祖国青春告白祖国',
+            brief: '桂林理工大学学子，告白献礼新中国成立70周年华诞！',
+            link: 'https://m.weibo.cn/detail/4366911783992399'
+          }
         ],
         singMotherland: [{
             title: '超燃表白，河北大学《我和我的祖国》',
@@ -73,7 +83,7 @@
             title: '重大土木师生唱响《我和我的祖国》',
             brief: '在祖国七十华诞，重大建校九十周年之际，重庆大学土木工程学院师生汇聚一堂，唱响对祖国和重大的祝福~',
             link: 'https://m.weibo.cn/1875333245/4382760099780510'
-          },
+          }
         ]
       }
     },
@@ -104,4 +114,5 @@
   .new-youth-flash-p {
     max-width: 20rem;
   }
+
 </style>
