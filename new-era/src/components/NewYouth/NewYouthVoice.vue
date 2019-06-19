@@ -13,9 +13,9 @@
       </b-row>
       <!-- 青春声音动漫短视频 -->
       <!-- 新时代来啦动漫短视频 -->
-      <b-row>
+      <b-row align-h="center">
         <b-col class="text-center mt-3">
-          <h4>新时代来啦动漫短视频</h4>
+          <h4 class="text-center">新时代来啦动漫短视频</h4>
           <small>
             视频来源：<b-link href="http://www.gov.cn/xinwen/2019-03/02/content_5370104.htm">中国政府网</b-link>
           </small>
@@ -27,9 +27,9 @@
         </b-col>
       </b-row>
       <!-- 美丽中国如何绘就 -->
-      <b-row>
+      <b-row align-h="center">
         <b-col class="text-center mt-3">
-          <h4>美丽中国如何绘就</h4>
+          <h4 class="text-center">美丽中国如何绘就</h4>
           <small>
             视频来源：<b-link href="http://www.gov.cn/xinwen/2019-03/02/content_5370104.htm">中国政府网</b-link>
           </small>

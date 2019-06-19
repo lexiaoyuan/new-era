@@ -14,7 +14,7 @@ export default new Router({
       name: 'Home',
       component: Home,
       meta: {
-        title: '首页'
+        title: '首页-辉煌新时代，追梦新征程'
       }
     },
     {
@@ -22,7 +22,7 @@ export default new Router({
       name: 'NewEra',
       component: NewEra,
       meta: {
-        title: '新时代'
+        title: '新时代-辉煌新时代，追梦新征程'
       }
     },
     {
@@ -30,7 +30,7 @@ export default new Router({
       name: 'NewJourney',
       component: NewJourney,
       meta: {
-        title: '新征程'
+        title: '新征程-辉煌新时代，追梦新征程'
       }
     },
     {
@@ -38,7 +38,7 @@ export default new Router({
       name: 'NewYouth',
       component: NewYouth,
       meta: {
-        title: '新青年'
+        title: '新青年-辉煌新时代，追梦新征程'
       }
     }
   ]
