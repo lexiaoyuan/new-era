@@ -20,7 +20,7 @@
       <b-row align-h="around">
 
         <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
-          <b-card :title="brilliantChina[0].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
+          <b-card :title="brilliantChina[0].title" :img-src="require('./img/newera-achieve-brilliant-china-1.png')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text class="text-indent">
               {{ brilliantChina[0].brief }}
@@ -30,7 +30,7 @@
         </b-col>
 
         <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
-          <b-card :title="brilliantChina[1].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
+          <b-card :title="brilliantChina[1].title" :img-src="require('./img/newera-achieve-brilliant-china-2.png')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text class="text-indent">
               {{ brilliantChina[1].brief }}
@@ -40,7 +40,7 @@
         </b-col>
 
         <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
-          <b-card :title="brilliantChina[2].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
+          <b-card :title="brilliantChina[2].title" :img-src="require('./img/newera-achieve-brilliant-china-3.png')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text class="text-indent">
               {{ brilliantChina[2].brief }}
@@ -50,10 +50,10 @@
         </b-col>
 
         <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
-          <b-card :title="brilliantChina[0].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
+          <b-card :title="brilliantChina[3].title" :img-src="require('./img/newera-achieve-brilliant-china-3.png')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text class="text-indent">
-              {{ brilliantChina[0].brief }}
+              {{ brilliantChina[3].brief }}
             </b-card-text>
             <b-button href="#" variant="primary">查看详情</b-button>
           </b-card>
@@ -69,7 +69,7 @@
       <!-- 大国外交卡片介绍 -->
       <b-row align-h="around">
         <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
-          <b-card :title="greatPowerPolitics[0].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
+          <b-card :title="greatPowerPolitics[0].title" :img-src="require('./img/newera-achieve-greatPowerPolitics-1.png')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text class="text-indent">
               {{ greatPowerPolitics[0].brief }}
@@ -79,7 +79,7 @@
         </b-col>
 
         <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
-          <b-card :title="greatPowerPolitics[1].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
+          <b-card :title="greatPowerPolitics[1].title" :img-src="require('./img/newera-achieve-greatPowerPolitics-2.png')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text class="text-indent">
               {{ greatPowerPolitics[1].brief }}
@@ -89,7 +89,7 @@
         </b-col>
 
         <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
-          <b-card :title="greatPowerPolitics[2].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
+          <b-card :title="greatPowerPolitics[2].title" :img-src="require('./img/newera-achieve-greatPowerPolitics-3.png')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text class="text-indent">
               {{ greatPowerPolitics[2].brief }}
@@ -99,7 +99,7 @@
         </b-col>
 
         <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
-          <b-card :title="greatPowerPolitics[0].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
+          <b-card :title="greatPowerPolitics[0].title" :img-src="require('./img/newera-achieve-greatPowerPolitics-1.png')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text class="text-indent">
               {{ greatPowerPolitics[0].brief }}
@@ -118,40 +118,40 @@
       <b-row align-h="around">
 
         <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
-          <b-card :title="grateTool[0].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
+          <b-card :title="greatTool[0].title" :img-src="require('./img/newera-achieve-greatTool-1.png')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text class="text-indent">
-              {{ grateTool[0].brief }}
+              {{ greatTool[0].brief }}
             </b-card-text>
             <b-button href="#" variant="primary">查看详情</b-button>
           </b-card>
         </b-col>
 
         <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
-          <b-card :title="grateTool[1].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
+          <b-card :title="greatTool[1].title" :img-src="require('./img/newera-achieve-greatTool-2.png')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text class="text-indent">
-              {{ grateTool[1].brief }}
+              {{ greatTool[1].brief }}
             </b-card-text>
             <b-button href="#" variant="primary">查看详情</b-button>
           </b-card>
         </b-col>
 
         <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
-          <b-card :title="grateTool[2].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
+          <b-card :title="greatTool[2].title" :img-src="require('./img/newera-achieve-greatTool-3.png')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text class="text-indent">
-              {{ grateTool[2].brief }}
+              {{ greatTool[2].brief }}
             </b-card-text>
             <b-button href="#" variant="primary">查看详情</b-button>
           </b-card>
         </b-col>
 
         <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
-          <b-card :title="grateTool[0].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
+          <b-card :title="greatTool[0].title" :img-src="require('./img/newera-achieve-greatTool-1.png')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text class="text-indent">
-              {{ grateTool[0].brief }}
+              {{ greatTool[0].brief }}
             </b-card-text>
             <b-button href="#" variant="primary">查看详情</b-button>
           </b-card>
@@ -168,7 +168,7 @@
       <b-row align-h="around">
 
         <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
-          <b-card :title="aerialPhotoChina[0].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
+          <b-card :title="aerialPhotoChina[0].title" :img-src="require('./img/newera-achieve-aerialPhotoChina-sichuan.png')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text class="text-indent">
               {{ aerialPhotoChina[0].brief }}
@@ -178,7 +178,7 @@
         </b-col>
 
         <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
-          <b-card :title="aerialPhotoChina[1].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
+          <b-card :title="aerialPhotoChina[1].title" :img-src="require('./img/newera-achieve-aerialPhotoChina-zhejiang.png')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text class="text-indent">
               {{ aerialPhotoChina[1].brief }}
@@ -188,7 +188,7 @@
         </b-col>
 
         <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
-          <b-card :title="aerialPhotoChina[2].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
+          <b-card :title="aerialPhotoChina[2].title" :img-src="require('./img/newera-achieve-aerialPhotoChina-gansu.png')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text class="text-indent">
               {{ aerialPhotoChina[2].brief }}
@@ -198,10 +198,10 @@
         </b-col>
 
         <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
-          <b-card :title="aerialPhotoChina[0].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
+          <b-card :title="aerialPhotoChina[3].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text class="text-indent">
-              {{ aerialPhotoChina[0].brief }}
+              {{ aerialPhotoChina[3].brief }}
             </b-card-text>
             <b-button href="#" variant="primary">查看详情</b-button>
           </b-card>
@@ -212,55 +212,6 @@
       <b-row>
         <b-col>
           <h4 class="ml-5 mt-2 wow animated fadeInDown">超级工程</h4>
-        </b-col>
-      </b-row>
-      <b-row align-h="around">
-
-        <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
-          <b-card :title="aerialPhotoChina[0].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
-            img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
-            <b-card-text class="text-indent">
-              {{ aerialPhotoChina[0].brief }}
-            </b-card-text>
-            <b-button href="#" variant="primary">查看详情</b-button>
-          </b-card>
-        </b-col>
-
-        <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
-          <b-card :title="aerialPhotoChina[1].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
-            img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
-            <b-card-text class="text-indent">
-              {{ aerialPhotoChina[1].brief }}
-            </b-card-text>
-            <b-button href="#" variant="primary">查看详情</b-button>
-          </b-card>
-        </b-col>
-
-        <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
-          <b-card :title="aerialPhotoChina[2].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
-            img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
-            <b-card-text class="text-indent">
-              {{ aerialPhotoChina[2].brief }}
-            </b-card-text>
-            <b-button href="#" variant="primary">查看详情</b-button>
-          </b-card>
-        </b-col>
-
-        <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
-          <b-card :title="aerialPhotoChina[0].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
-            img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
-            <b-card-text class="text-indent">
-              {{ aerialPhotoChina[0].brief }}
-            </b-card-text>
-            <b-button href="#" variant="primary">查看详情</b-button>
-          </b-card>
-        </b-col>
-
-      </b-row>
-      <!-- 大美中国 -->
-      <b-row>
-        <b-col>
-          <h4 class="ml-5 mt-2 wow animated fadeInUp">大美中国</h4>
         </b-col>
       </b-row>
       <b-row align-h="around">
@@ -296,10 +247,59 @@
         </b-col>
 
         <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
-          <b-card :title="superProject[0].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
+          <b-card :title="superProject[3].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text class="text-indent">
-              {{ superProject[0].brief }}
+              {{ superProject[3].brief }}
+            </b-card-text>
+            <b-button href="#" variant="primary">查看详情</b-button>
+          </b-card>
+        </b-col>
+
+      </b-row>
+      <!-- 大美中国 -->
+      <b-row>
+        <b-col>
+          <h4 class="ml-5 mt-2 wow animated fadeInUp">大美中国</h4>
+        </b-col>
+      </b-row>
+      <b-row align-h="around">
+
+        <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
+          <b-card :title="bigGreatChina[0].title" :img-src="require('./img/newera-achieve-bigGreatChina-1.png')"
+            img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
+            <b-card-text class="text-indent">
+              {{ bigGreatChina[0].brief }}
+            </b-card-text>
+            <b-button href="#" variant="primary">查看详情</b-button>
+          </b-card>
+        </b-col>
+
+        <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
+          <b-card :title="bigGreatChina[1].title" :img-src="require('./img/newera-achieve-bigGreatChina-2.png')"
+            img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
+            <b-card-text class="text-indent">
+              {{ bigGreatChina[1].brief }}
+            </b-card-text>
+            <b-button href="#" variant="primary">查看详情</b-button>
+          </b-card>
+        </b-col>
+
+        <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
+          <b-card :title="bigGreatChina[2].title" :img-src="require('./img/newera-achieve-bigGreatChina-3.png')"
+            img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
+            <b-card-text class="text-indent">
+              {{ bigGreatChina[2].brief }}
+            </b-card-text>
+            <b-button href="#" variant="primary">查看详情</b-button>
+          </b-card>
+        </b-col>
+
+        <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
+          <b-card :title="bigGreatChina[3].title" :img-src="require('./img/newera-achieve-bigGreatChina-3.png')"
+            img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
+            <b-card-text class="text-indent">
+              {{ bigGreatChina[3].brief }}
             </b-card-text>
             <b-button href="#" variant="primary">查看详情</b-button>
           </b-card>
@@ -315,7 +315,7 @@
       <b-row align-h="around">
 
         <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
-          <b-card :title="chinaBridge[0].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
+          <b-card :title="chinaBridge[0].title" :img-src="require('./img/newera-achieve-chinaBridge-1.png')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text class="text-indent">
               {{ chinaBridge[0].brief }}
@@ -325,7 +325,7 @@
         </b-col>
 
         <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
-          <b-card :title="chinaBridge[1].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
+          <b-card :title="chinaBridge[1].title" :img-src="require('./img/newera-achieve-chinaBridge-2.png')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text class="text-indent">
               {{ chinaBridge[1].brief }}
@@ -335,7 +335,7 @@
         </b-col>
 
         <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
-          <b-card :title="chinaBridge[2].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
+          <b-card :title="chinaBridge[2].title" :img-src="require('./img/newera-achieve-chinaBridge-3.png')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text class="text-indent">
               {{ chinaBridge[2].brief }}
@@ -345,10 +345,10 @@
         </b-col>
 
         <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
-          <b-card :title="chinaBridge[0].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
+          <b-card :title="chinaBridge[3].title" :img-src="require('./img/newera-achieve-chinaBridge-1.png')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text class="text-indent">
-              {{ chinaBridge[0].brief }}
+              {{ chinaBridge[3].brief }}
             </b-card-text>
             <b-button href="#" variant="primary">查看详情</b-button>
           </b-card>
@@ -379,6 +379,11 @@
             title: '辉煌中国——协调发展',
             brief: `走遍东西南北，本集记录下天梯上孩子们的笑容、记录下扶贫干部的汗与泪、记录下姑苏小镇城乡统筹的奇迹，记录下“闽宁模式”东西部牵手的成功跨越，记录下一个个特色小镇、中心城市、城市群的兴起。从长江经济带，到京津冀一体化 ...`,
             link: 'http://tv.cctv.com/2017/09/22/VIDELEO00FIATcUCw0cJWbuE170922.shtml'
+          },
+          {
+            title: '辉煌中国——绿色家园',
+            brief: ` 西方的工业化进程，中国的快速发展，都经历了自然界的报复。面对经济增长和保护环境的矛盾不断加剧，取舍之间，考验的是决心、勇气和担当。翻越海拔6000米的高原，下潜到南海300米以下的海底，穿过大兴安岭的密林,本集讲述 ...`,
+            link: 'http://tv.cctv.com/2017/09/23/VIDEgIbEZ52pf8VLHzj5Vx5c170923.shtml'
           }
         ],
         greatPowerPolitics: [{
@@ -396,8 +401,13 @@
             brief: `一个有担当的负责任大国，必须做有益于人类的事业。共赢共享，中国智慧点亮世界；遇到难题，中国方案从不缺席；面对挑战，中国行动自信从容。本集聚焦党的十八大以来，以习近平同志为核心的党中央积极参与和引领全球治理体系变革 ...`,
             link: 'http://tv.cctv.com/2017/11/10/VIDE9IbIvlKKi95mDhxNj7WB171110.shtml?spm=C55924871139.PiBcPr7RBv8W.0.0'
           },
+          {
+            title: '大国外交——穿云破雾',
+            brief: `本集聚焦党的十八大以来，在以习近平同志为核心的党中央坚强领导下，我国坚定捍卫国家主权和领土完整，维护国家核心重大利益，在尊重历史事实和国际法的基础上进行了一系列必要和有力的斗争，同国际社会积极开展反腐败追赃追逃合作 ...`,
+            link: 'http://tv.cctv.com/2017/11/10/VIDEZQTO2x6I8u9ufMJx2pDE171110.shtml'
+          }
         ],
-        grateTool: [{
+        greatTool: [{
             title: '大国重器——构筑基石',
             brief: `作为世界第一制造大国，中国500多种主要工业产品中有220多种产量位居世界第一。从百年梦想川藏铁路工程，到孟加拉国帕德玛大桥的千年圆梦，从中国高铁拉动一个个产业基地，到中国核工业产业链上一个个尖兵，它们托起了 ...`,
             link: 'http://tv.cctv.com/2018/03/07/VIDEh0Ln01tPZZJu3GX52GEV180307.shtml'
@@ -412,6 +422,11 @@
             brief: `超级装备让人类获得超越自身的能力，工程机械制造水平和能力，成为衡量一个国家工业水平的关键指标。中国，已经是全球工程机械最大的制造基地。这是中国迈向制造强国最有可能率先跻身最先进行列的领域。`,
             link: 'http://tv.cctv.com/2018/03/07/VIDE6kAVADCm0JfEJy4jpFFY180307.shtml'
           },
+          {
+            title: '大国重器——造血通脉',
+            brief: `中国是世界上最大的能源生产国和消费国。在这个关系国家繁荣发展、人民生活改善、社会长治久安的战略领域，中国的态度是明确的——着力推动能源生产利用方式变革，建设一个清洁低碳、安全高效的现代能源体系。备，正成为造血通脉的利器。`,
+            link: 'http://jingji.cctv.com/2018/02/26/ARTI8JaqmExXh36Ibvhaedk8180226.shtml'
+          }
         ],
         aerialPhotoChina: [{
             title: '航拍中国——四川',
@@ -428,11 +443,16 @@
             brief: `甘肃，位于中国的西北部，黄河穿越兰州，将这片土地划分为河东与河西，一南一北的山脉挤压出一条约1000公里的狭长走廊，片片绿洲，勾连着中原与塞外。我们的飞行之旅从甘肃中部开启，邂逅别样的黄土高原。穿越时空隧道 ...`,
             link: 'http://tv.cctv.com/2019/04/08/VIDEWRi80NUFha0dEX2YNE5a190408.shtml?spm=C55924871139.PY8jbb3G6NT9.0.0'
           },
+          {
+            title: '航拍中国——福建',
+            brief: `福建，位于中国东南沿海，“八山一水一分田”，绵延的武夷山雄踞西北部。近700条大大小小的河流穿行于群山之间，隔台湾海峡与台湾相望。进入福建的旅程，从闽赣边界的武夷山开始。探寻一片树叶的传奇，造访一座古村聆听往昔的繁华 ...`,
+            link: 'http://tv.cctv.com/2019/04/08/VIDEdHKOZu1ROUWdewiZ87wR190408.shtml?spm=C55924871139.PY8jbb3G6NT9.0.0'
+          }
         ],
         superProject: [{
             title: '超级工程——港珠澳大桥',
             brief: `港珠澳大桥是一座连接香港、珠海和澳门的巨大桥梁，港珠澳大桥在促进香港、澳门和珠江三角洲西岸地区经济上的进一步发展具重要的策略意义。
-            港珠澳大桥主体建造工程于2009年12月15日开工建设，以期于2015至2016年完成，大桥投资超700亿元 ...`,
+      港珠澳大桥主体建造工程于2009年12月15日开工建设，以期于2015至2016年完成，大桥投资超700亿元 ...`,
             link: 'http://tv.cctv.com/2014/11/06/VIDE1415241548060331.shtml?spm=C86503.PVVgJv0Rp0FF.EwkpNJey7X7C.3'
           },
           {
@@ -445,6 +465,11 @@
             brief: `北京有着令世界惊叹的奇迹，但是外来人口越来越多，交通日益拥堵，成了困扰北京的一个难题。目前北京正在建造31条线路，560座车站，1000公里行程，一个立体的轨道交通网络将辐射于这座城市 ...`,
             link: 'http://tv.cctv.com/2014/11/06/VIDE1415241548744395.shtml?spm=C86503.PVVgJv0Rp0FF.E7ZdMMq3KAna.3'
           },
+          {
+            title: '超级工程——海上巨型风机',
+            brief: `在人类目前开发利用的清洁能源中，风能是在可知范围内对环境影响最小的绿色能源。在中国市场，一部5兆瓦的风力发电机可以不消耗任何燃料，从空气中最终获取超过4亿人民币的电能 ...`,
+            link: 'http://tv.cctv.com/2014/11/06/VIDE1415241547636305.shtml'
+          }
         ],
         bigGreatChina: [{
             title: '美丽中国——锦绣华南',
@@ -460,6 +485,11 @@
             title: '美丽中国——神奇高原',
             brief: `本集以神秘辽远的青藏高原为背景，向你展示那些日夜守护这片心灵净土的异兽珍禽--盘羊、藏羚羊、藏野驴、野牦牛、蓝羊、黑颈鹤、温泉蛇……有被中国古人视作介于动植物之间的冬虫夏草，还有由寺庙僧人喂养的藏马鸡。朝珠穆朗玛峰 ...`,
             link: 'http://tv.cctv.com/2012/12/16/VIDE1355597485842348.shtml'
+          },
+          {
+            title: '美丽中国——风雪塞外',
+            brief: `本集所涉及的地域样貌是系列中最多样化最丰富的。有内蒙草原、甘肃戈壁，也有东北密林、西部边陲。有以“魔鬼城”闻名的敦煌雅丹，也有凡间仙境长白山天池，有硕果累累的吐鲁番，也有荒芜人迹的大沙漠 ...`,
+            link: 'http://tv.cctv.com/2012/12/16/VIDE1355597492191473.shtml'
           }
         ],
         chinaBridge: [{
@@ -474,9 +504,14 @@
           },
           {
             title: '中国大桥——各领风骚',
-            brief: `老百姓看桥往往看桥的外观和跨度是否雄伟壮观，令人惊叹，而内行人看桥却不是水面之上而是水面之下，因为一个桥梁的基础才是一个桥梁岿然百年的关键。节目中专家们为我们讲述了建桥打桩时的艰辛历程及他们是怎样突破重重困难的。`,
+            brief: `老百姓看桥往往看桥的外观和跨度是否雄伟壮观，令人惊叹，而内行人看桥却不是水面之上而是水面之下，因为一个桥梁的基础才是一个桥梁岿然百年的关键。节目中专家们为我们讲述了建桥打桩时的艰辛历程及他们是怎样突破重重困难的 ...`,
             link: 'http://tv.cntv.cn/video/C21817/34b2c1e69d5e401b423ff8811933ca3f'
           },
+          {
+            title: '中国大桥——走向世界',
+            brief: `中国自古被称为“拱桥之父”。山西的丹河大桥主跨146米，是目前世界第一大石拱桥。四川万县长江大桥采用钢筋混凝土材料和无支架施工方法，使拱桥突破了400米跨径。建于2005年的广州新光大桥为钢桁拱结构;重庆的菜园坝大桥则采用 ...`,
+            link: 'http://tv.cntv.cn/video/C21817/843ca30963c54f645a34cebfbe7e6c19'
+          }
         ]
       }
     },

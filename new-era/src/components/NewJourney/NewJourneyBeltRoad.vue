@@ -3,19 +3,16 @@
     <b-container fluid class="deletePx">
       <swiper :options="swiperOption">
         <swiper-slide>
-          <b-img :src="require('./new-journey-img/new-journey-belt-road-hd-img1.jpeg')" fluid-grow></b-img>
+          <b-img :src="require('./new-journey-img/new-journey-belt-road-hd-img1.png')" fluid-grow></b-img>
         </swiper-slide>
         <swiper-slide>
-          <b-img :src="require('./new-journey-img/new-journey-belt-road-hd-img2.jpeg')" fluid-grow></b-img>
+          <b-img :src="require('./new-journey-img/new-journey-belt-road-hd-img2.png')" fluid-grow></b-img>
         </swiper-slide>
         <swiper-slide>
-          <b-img :src="require('./new-journey-img/new-journey-belt-road-hd-img1.jpeg')" fluid-grow></b-img>
+          <b-img :src="require('./new-journey-img/new-journey-belt-road-hd-img3.png')" fluid-grow></b-img>
         </swiper-slide>
         <swiper-slide>
-          <b-img :src="require('./new-journey-img/new-journey-belt-road-hd-img2.jpeg')" fluid-grow></b-img>
-        </swiper-slide>
-        <swiper-slide>
-          <b-img :src="require('./new-journey-img/new-journey-belt-road-hd-img1.jpeg')" fluid-grow></b-img>
+          <b-img :src="require('./new-journey-img/new-journey-belt-road-hd-img4.png')" fluid-grow></b-img>
         </swiper-slide>
         <div class="swiper-scrollbar" slot="scrollbar"></div>
       </swiper>
