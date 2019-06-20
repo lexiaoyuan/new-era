@@ -8,10 +8,18 @@
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <b-nav-item to="/">首页</b-nav-item>
-          <b-nav-item to="newera">新时代</b-nav-item>
-          <b-nav-item to="newjourney">新征程</b-nav-item>
-          <b-nav-item to="newyouth">新青年</b-nav-item>
+          <b-nav-item to="/">
+            {{ $t('NavBar.home') }}
+          </b-nav-item>
+          <b-nav-item to="newera">
+            {{ $t('NavBar.newera') }}
+          </b-nav-item>
+          <b-nav-item to="newjourney">
+            {{ $t('NavBar.newjourney') }}
+          </b-nav-item>
+          <b-nav-item to="newyouth">
+            {{ $t('NavBar.newyouth') }}
+          </b-nav-item>
         </b-navbar-nav>
 
         <!-- Right aligned nav items -->
@@ -22,8 +30,8 @@
             </b-button>
           </b-nav-form>
 
-          <b-nav-item-dropdown class="app-navbar-language" text="中文" right>
-            <b-dropdown-item href="#">English</b-dropdown-item>
+          <b-nav-item-dropdown class="app-navbar-language" :text="defalutLanguage" right>
+            <b-dropdown-item href="#" @click="changeLang">{{ selectLanguage }}</b-dropdown-item>
           </b-nav-item-dropdown>
         </b-navbar-nav>
 
@@ -34,7 +42,26 @@
 
 <script>
   export default {
-
+    data () {
+      return {
+        selectLanguage: 'English',
+        defalutLanguage: '中文'
+      }
+    },
+    methods: {
+      changeLang: function () {
+        if (this.defalutLanguage === '中文') {
+          this.defalutLanguage = 'English';
+          this.selectLanguage = '中文';
+          this.$i18n.locale = 'en';
+        }
+        else {
+          this.defalutLanguage = '中文';
+          this.selectLanguage = 'English';
+          this.$i18n.locale = 'zh';
+        }
+      }
+    }
   }
 
 </script>
