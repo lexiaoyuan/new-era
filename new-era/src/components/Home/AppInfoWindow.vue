@@ -3,7 +3,7 @@
     <!-- ------------新时代动态----------- -->
     <div class="d-flex justify-content-sm-around mt-5">
       <hr class="w-25 layui-bg-red" />
-      <h3 class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">新时代动态</h3>
+      <h3 class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">{{ $t('AppInfoWindow.name') }}</h3>
       <hr class="w-25 layui-bg-red">
     </div>
 

@@ -2,20 +2,20 @@
   <div>
     <div class="d-flex justify-content-sm-around mt-5">
       <hr class="layui-bg-red w-25">
-      <h3 class="wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">厉害了，我的国</h3>
+      <h3 class="wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">{{ $t('AppMarvelous.name') }}</h3>
       <hr class="layui-bg-red w-25">
     </div>
     <b-container fluid>
       <b-row>
         <b-col class="wow animated fadeInUp" cols="4" sm="4" data-wow-duration="1.5s" data-wow-delay="0.5s">
-          <b-card class="mt-5" title="国内生产总值" sub-title="GDP">
+          <b-card class="mt-5" :title="$t('AppMarvelous.gdp')" sub-title="GDP">
             <b-card-text>
-              {{ GDPdescibe }}
+              {{ $t('AppMarvelous.gdp_describe') }}
             </b-card-text>
 
-            <b-card-text>统计周期：2013年第1季度-2019年第一季度</b-card-text>
+            <b-card-text>{{ $t('AppMarvelous.statistical_cycle')}}</b-card-text>
 
-            <b-link href="http://www.gov.cn/shuju/index.htm" class="card-link">查看详情</b-link>
+            <b-link href="http://www.gov.cn/shuju/index.htm" class="card-link">{{ $t('AppMarvelous.see_details') }}</b-link>
           </b-card>
         </b-col>
         <b-col class="wow animated fadeInUp" cols="8" sm="8" data-wow-duration="2.5s" data-wow-delay="0.5s">
@@ -29,7 +29,6 @@
 import XChart from '../HighCharts'
 import { WOW } from 'wowjs'
 export default {
-  name: "",
   data () {
     return {
       options: {
@@ -122,9 +121,7 @@ export default {
             213432.8,
             ]
         }]
-      },
-      GDPdescibe: `指按市场价格计算的一个国家（或地区）所有常住单位在一定时期内生产活动的最终成果。
-      国内生产总值有三种表现形态，即价值形态、收入形态和产品形态。`
+      }
     }
   },
   components: {

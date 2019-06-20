@@ -5,7 +5,7 @@
         <b-col cols="2" sm="2"></b-col>
         <b-col cols="8" sm="8">
           <p>
-            <span class="font-weight-bold">相关链接：</span>
+            <span class="font-weight-bold">{{ $t('BottomDeclare.related_links') }}</span>
             <span class="pl-2">
               <b-link href="http://www.xinhuanet.com/politics/xxjxs/">学习进行时</b-link>
             </span>
@@ -39,12 +39,12 @@
       </b-row>
       <b-row align-h="center">
         <b-col cols="8" sm="8">
-          <p>本网站素材来自互联网，如内容有侵权，请联系删除</p>
+          <p>{{ $t('BottomDeclare.statement') }}</p>
         </b-col>
       </b-row>
       <b-row align-h="center">
         <b-col cols="8" sm="8">
-          <p>鄂ICP备18020158号 <span class="ml-4">联系邮箱：2775886918@qq.com</span> </p>
+          <p>鄂ICP备18020158号 <span class="ml-4">{{ $t('BottomDeclare.email') }}2775886918@qq.com</span> </p>
         </b-col>
       </b-row>
     </b-container>
@@ -54,7 +54,6 @@
   export default {
 
   }
-
 </script>
 <style lang="">
 

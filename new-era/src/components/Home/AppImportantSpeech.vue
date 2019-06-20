@@ -3,7 +3,7 @@
     <!-- ------------重要讲话----------- -->
     <div class="d-flex justify-content-sm-around mt-5">
       <hr class="w-25 layui-bg-red" />
-      <h3 class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">重要讲话</h3>
+      <h3 class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">{{ $t('AppImportantSpeech.name') }}</h3>
       <hr class="w-25 layui-bg-red">
     </div>
     <!-- 讲话内容 -->

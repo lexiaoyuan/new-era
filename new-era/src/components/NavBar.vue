@@ -2,7 +2,7 @@
   <div>
     <b-navbar class="app-nav-bar navbar-expand-sm bg-pure-red">
       <b-navbar-brand href="#">
-        <img src="../assets/img/logo.png" alt="辉煌新时代 追梦新征程" class="fluid">
+        <img src="../assets/img/logo.png" alt="辉煌新时代 追梦新征程" class="img-fluid d-inline-block align-top">
         <!-- 辉煌新时代 追梦新征程 -->
       </b-navbar-brand>
 
@@ -24,12 +24,11 @@
 
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
-          <b-nav-form type="light" variant="light">
-            <b-form-input id="bdcsMain" size="sm" class="mr-sm-2" placeholder="搜索..."></b-form-input>
-            <b-button variant="outline-success" size="sm" class="app-navbar-search-submit my-2 my-sm-0" type="submit">搜索
-            </b-button>
-          </b-nav-form>
-
+          <!-- <b-nav-form type="light" variant="light">
+            <b-form-input size="sm" class="mr-sm-2" placeholder="搜索..."></b-form-input>
+            <b-button variant="outline-success" size="sm" class="app-navbar-search-submit my-2 my-sm-0" type="submit">搜索</b-button>
+          </b-nav-form> -->
+          <b-nav-text>Language:</b-nav-text>
           <b-nav-item-dropdown class="app-navbar-language" :text="defalutLanguage" right>
             <b-dropdown-item href="#" @click="changeLang">{{ selectLanguage }}</b-dropdown-item>
           </b-nav-item-dropdown>
