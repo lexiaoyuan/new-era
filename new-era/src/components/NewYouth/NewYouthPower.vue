@@ -14,21 +14,29 @@
       <!-- 陆海空超燃宣传片 -->
       <b-row class="mt-3">
         <b-col cols="4" class="text-center">
-          <b-img class="wow animated fadeInUp" :src="require('./new-youth-img/newyouth-power-landforce.png')" fluid rounded>
+          <b-img class="wow animated fadeInUp" :src="require('./new-youth-img/newyouth-power-landforce.png')" fluid
+            rounded>
           </b-img>
-          <h5 class="mt-2 mb-2 wow animated fadeInUp">{{ landForce.title }}</h5>
+          <h5 class="mt-2 mb-2 wow animated fadeInUp">
+            <b-link :href="landForce.link" target="_blank">{{ landForce.title }}</b-link>
+          </h5>
           <p class="text-center px-4 wow animated fadeInUp">{{ landForce.brief }}</p>
         </b-col>
         <b-col cols="4" class="text-center">
           <b-img class="wow animated fadeInUp" :src="require('./new-youth-img/newyouth-power-navy.png')" fluid rounded>
           </b-img>
-          <h5 class="mt-2 mb-2 wow animated fadeInUp">{{ navy.title }}</h5>
+          <h5 class="mt-2 mb-2 wow animated fadeInUp">
+            <b-link :href="navy.link" target="_blank"> {{ navy.title }}</b-link>
+          </h5>
           <p class="text-center px-4 wow animated fadeInUp">{{ navy.brief }}</p>
         </b-col>
         <b-col cols="4" class="text-center">
-          <b-img class="wow animated fadeInUp" :src="require('./new-youth-img/newyouth-power-airforce.png')" fluid rounded>
+          <b-img class="wow animated fadeInUp" :src="require('./new-youth-img/newyouth-power-airforce.png')" fluid
+            rounded>
           </b-img>
-          <h5 class="mt-2 mb-2 wow animated fadeInUp">{{ airForce.title }}</h5>
+          <h5 class="mt-2 mb-2 wow animated fadeInUp">
+            <b-link :href="airForce.link" target="_blank">{{ airForce.title }}</b-link>
+          </h5>
           <p class="text-center px-4 wow animated fadeInUp">{{ airForce.brief }}</p>
         </b-col>
       </b-row>

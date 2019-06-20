@@ -14,32 +14,56 @@
       <b-row align-h="around">
         <b-col sm="auto" class="mt-3 wow animated fadeInUp">
           <b-img :src="require('./new-youth-img/newyouth-flash-glut.png')" fluid rounded></b-img>
-          <h5 class="mt-2 mb-2">{{ meAndMotherland[0].title }}</h5>
+          <h5 class="mt-2 mb-2">
+            <b-link :href="meAndMotherland[0].link" target="_blank">
+              {{ meAndMotherland[0].title }}
+            </b-link>
+          </h5>
           <p class="text-truncate new-youth-flash-p">{{ meAndMotherland[0].brief }}</p>
         </b-col>
         <b-col sm="auto" class="mt-3 wow animated fadeInUp">
           <b-img :src="require('./new-youth-img/newyouth-flash-thu.png')" fluid rounded></b-img>
-          <h5 class="mt-2 mb-2">{{ meAndMotherland[1].title }}</h5>
+          <h5 class="mt-2 mb-2">
+            <b-link :href="meAndMotherland[1].link" target="_blank">
+              {{ meAndMotherland[1].title }}
+            </b-link>
+          </h5>
           <p class="text-truncate new-youth-flash-p">{{ meAndMotherland[1].brief }}</p>
         </b-col>
         <b-col sm="auto" class="mt-3 wow animated fadeInUp">
           <b-img :src="require('./new-youth-img/newyouth-flash-whu.png')" fluid rounded></b-img>
-          <h5 class="mt-2 mb-2">{{ meAndMotherland[2].title }}</h5>
+          <h5 class="mt-2 mb-2">
+            <b-link :href="meAndMotherland[2].link" target="_blank">
+              {{ meAndMotherland[2].title }}
+            </b-link>
+          </h5>
           <p class="text-truncate new-youth-flash-p">{{ meAndMotherland[2].brief }}</p>
         </b-col>
         <b-col sm="auto" class="mt-3 wow animated fadeInUp">
           <b-img :src="require('./new-youth-img/newyouth-flash-sxnu.png')" fluid rounded></b-img>
-          <h5 class="mt-2 mb-2">{{ meAndMotherland[3].title }}</h5>
+          <h5 class="mt-2 mb-2">
+            <b-link :href="meAndMotherland[3].link" target="_blank">
+              {{ meAndMotherland[3].title }}
+            </b-link>
+          </h5>
           <p class="text-truncate new-youth-flash-p">{{ meAndMotherland[3].brief }}</p>
         </b-col>
         <b-col sm="auto" class="mt-3 wow animated fadeInUp">
           <b-img :src="require('./new-youth-img/newyouth-flash-xmu.png')" fluid rounded></b-img>
-          <h5 class="mt-2 mb-2">{{ meAndMotherland[4].title }}</h5>
+          <h5 class="mt-2 mb-2">
+            <b-link :href="meAndMotherland[4].link" target="_blank">
+              {{ meAndMotherland[4].title }}
+            </b-link>
+          </h5>
           <p class="text-truncate new-youth-flash-p">{{ meAndMotherland[4].brief }}</p>
         </b-col>
         <b-col sm="auto" class="mt-3 wow animated fadeInUp">
           <b-img :src="require('./new-youth-img/newyouth-flash-heu.png')" fluid rounded></b-img>
-          <h5 class="mt-2 mb-2">{{ meAndMotherland[5].title }}</h5>
+          <h5 class="mt-2 mb-2">
+            <b-link :href="meAndMotherland[5].link" target="_blank">
+              {{ meAndMotherland[5].title }}
+            </b-link>
+          </h5>
           <p class="text-truncate new-youth-flash-p">{{ meAndMotherland[5].brief }}</p>
         </b-col>
       </b-row>
