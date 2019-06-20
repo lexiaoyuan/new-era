@@ -18,7 +18,7 @@
       </b-row>
       <b-row align-h="around">
         <b-col sm="auto" class="mt-3 wow animated fadeInUp">
-          <b-card :title="video[0].title" :img-src="require('./img/newera-one-minute-video-guangxi.png')"
+          <b-card :title="video[0].title" :img-src="require('./img/newera-one-minute-1.png')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text class="text-indent">
               {{ video[0].brief }}
@@ -28,7 +28,7 @@
         </b-col>
 
         <b-col sm="auto" class="mt-3 wow animated fadeInUp">
-          <b-card :title="video[1].title" :img-src="require('./img/newera-one-minute-video-guangxi.png')"
+          <b-card :title="video[1].title" :img-src="require('./img/newera-one-minute-2.png')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text class="text-indent">
               {{ video[1].brief }}
@@ -38,7 +38,7 @@
         </b-col>
 
         <b-col sm="auto" class="mt-3 wow animated fadeInUp">
-          <b-card :title="video[2].title" :img-src="require('./img/newera-one-minute-video-guangxi.png')"
+          <b-card :title="video[2].title" :img-src="require('./img/newera-one-minute-3.png')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text class="text-indent">
               {{ video[2].brief }}
