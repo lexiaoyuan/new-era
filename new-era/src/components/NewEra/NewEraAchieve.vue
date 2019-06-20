@@ -25,7 +25,7 @@
             <b-card-text class="text-indent">
               {{ brilliantChina[0].brief }}
             </b-card-text>
-            <b-button href="#" variant="primary">查看详情</b-button>
+            <b-button :href="brilliantChina[0].link" variant="primary">查看详情</b-button>
           </b-card>
         </b-col>
 
@@ -35,7 +35,7 @@
             <b-card-text class="text-indent">
               {{ brilliantChina[1].brief }}
             </b-card-text>
-            <b-button href="#" variant="primary">查看详情</b-button>
+            <b-button :href="brilliantChina[1].link" variant="primary">查看详情</b-button>
           </b-card>
         </b-col>
 
@@ -45,17 +45,17 @@
             <b-card-text class="text-indent">
               {{ brilliantChina[2].brief }}
             </b-card-text>
-            <b-button href="#" variant="primary">查看详情</b-button>
+            <b-button :href="brilliantChina[2].link" variant="primary">查看详情</b-button>
           </b-card>
         </b-col>
 
         <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
-          <b-card :title="brilliantChina[3].title" :img-src="require('./img/newera-achieve-brilliant-china-3.png')"
+          <b-card :title="brilliantChina[3].title" :img-src="require('./img/newera-achieve-brilliant-china-4.png')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text class="text-indent">
               {{ brilliantChina[3].brief }}
             </b-card-text>
-            <b-button href="#" variant="primary">查看详情</b-button>
+            <b-button :href="brilliantChina[3].link" variant="primary">查看详情</b-button>
           </b-card>
         </b-col>
 
@@ -74,7 +74,7 @@
             <b-card-text class="text-indent">
               {{ greatPowerPolitics[0].brief }}
             </b-card-text>
-            <b-button href="#" variant="primary">查看详情</b-button>
+            <b-button :href="greatPowerPolitics[0].link" variant="primary">查看详情</b-button>
           </b-card>
         </b-col>
 
@@ -84,7 +84,7 @@
             <b-card-text class="text-indent">
               {{ greatPowerPolitics[1].brief }}
             </b-card-text>
-            <b-button href="#" variant="primary">查看详情</b-button>
+            <b-button :href="greatPowerPolitics[1].link" variant="primary">查看详情</b-button>
           </b-card>
         </b-col>
 
@@ -94,17 +94,17 @@
             <b-card-text class="text-indent">
               {{ greatPowerPolitics[2].brief }}
             </b-card-text>
-            <b-button href="#" variant="primary">查看详情</b-button>
+            <b-button :href="greatPowerPolitics[2].link" variant="primary">查看详情</b-button>
           </b-card>
         </b-col>
 
         <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
-          <b-card :title="greatPowerPolitics[3].title" :img-src="require('./img/newera-achieve-greatPowerPolitics-1.png')"
+          <b-card :title="greatPowerPolitics[3].title" :img-src="require('./img/newera-achieve-greatPowerPolitics-4.png')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text class="text-indent">
               {{ greatPowerPolitics[3].brief }}
             </b-card-text>
-            <b-button href="#" variant="primary">查看详情</b-button>
+            <b-button :href="greatPowerPolitics[3].link" variant="primary">查看详情</b-button>
           </b-card>
         </b-col>
       </b-row>
@@ -123,7 +123,7 @@
             <b-card-text class="text-indent">
               {{ greatTool[0].brief }}
             </b-card-text>
-            <b-button href="#" variant="primary">查看详情</b-button>
+            <b-button :href="greatTool[0].link" variant="primary">查看详情</b-button>
           </b-card>
         </b-col>
 
@@ -133,7 +133,7 @@
             <b-card-text class="text-indent">
               {{ greatTool[1].brief }}
             </b-card-text>
-            <b-button href="#" variant="primary">查看详情</b-button>
+            <b-button :href="greatTool[1].link" variant="primary">查看详情</b-button>
           </b-card>
         </b-col>
 
@@ -143,17 +143,17 @@
             <b-card-text class="text-indent">
               {{ greatTool[2].brief }}
             </b-card-text>
-            <b-button href="#" variant="primary">查看详情</b-button>
+            <b-button :href="greatTool[2].link" variant="primary">查看详情</b-button>
           </b-card>
         </b-col>
 
         <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
-          <b-card :title="greatTool[3].title" :img-src="require('./img/newera-achieve-greatTool-1.png')"
+          <b-card :title="greatTool[3].title" :img-src="require('./img/newera-achieve-greatTool-4.png')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text class="text-indent">
               {{ greatTool[3].brief }}
             </b-card-text>
-            <b-button href="#" variant="primary">查看详情</b-button>
+            <b-button :href="greatTool[3].link" variant="primary">查看详情</b-button>
           </b-card>
         </b-col>
 
@@ -173,7 +173,7 @@
             <b-card-text class="text-indent">
               {{ aerialPhotoChina[0].brief }}
             </b-card-text>
-            <b-button href="#" variant="primary">查看详情</b-button>
+            <b-button :href="aerialPhotoChina[0].link" variant="primary">查看详情</b-button>
           </b-card>
         </b-col>
 
@@ -183,7 +183,7 @@
             <b-card-text class="text-indent">
               {{ aerialPhotoChina[1].brief }}
             </b-card-text>
-            <b-button href="#" variant="primary">查看详情</b-button>
+            <b-button :href="aerialPhotoChina[1].link" variant="primary">查看详情</b-button>
           </b-card>
         </b-col>
 
@@ -193,17 +193,17 @@
             <b-card-text class="text-indent">
               {{ aerialPhotoChina[2].brief }}
             </b-card-text>
-            <b-button href="#" variant="primary">查看详情</b-button>
+            <b-button :href="aerialPhotoChina[2].link" variant="primary">查看详情</b-button>
           </b-card>
         </b-col>
 
         <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
-          <b-card :title="aerialPhotoChina[3].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
+          <b-card :title="aerialPhotoChina[3].title" :img-src="require('./img/newera-achieve-aerialPhotoChina-fujian.png')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text class="text-indent">
               {{ aerialPhotoChina[3].brief }}
             </b-card-text>
-            <b-button href="#" variant="primary">查看详情</b-button>
+            <b-button :href="aerialPhotoChina[3].link" variant="primary">查看详情</b-button>
           </b-card>
         </b-col>
 
@@ -217,42 +217,42 @@
       <b-row align-h="around">
 
         <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
-          <b-card :title="superProject[0].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
+          <b-card :title="superProject[0].title" :img-src="require('./img/newera-achieve-superProject-1.png')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text class="text-indent">
               {{ superProject[0].brief }}
             </b-card-text>
-            <b-button href="#" variant="primary">查看详情</b-button>
+            <b-button :href="superProject[0].link" variant="primary">查看详情</b-button>
           </b-card>
         </b-col>
 
         <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
-          <b-card :title="superProject[1].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
+          <b-card :title="superProject[1].title" :img-src="require('./img/newera-achieve-superProject-2.png')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text class="text-indent">
               {{ superProject[1].brief }}
             </b-card-text>
-            <b-button href="#" variant="primary">查看详情</b-button>
+            <b-button :href="superProject[1].link" variant="primary">查看详情</b-button>
           </b-card>
         </b-col>
 
         <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
-          <b-card :title="superProject[2].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
+          <b-card :title="superProject[2].title" :img-src="require('./img/newera-achieve-superProject-3.png')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text class="text-indent">
               {{ superProject[2].brief }}
             </b-card-text>
-            <b-button href="#" variant="primary">查看详情</b-button>
+            <b-button :href="superProject[2].link" variant="primary">查看详情</b-button>
           </b-card>
         </b-col>
 
         <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
-          <b-card :title="superProject[3].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
+          <b-card :title="superProject[3].title" :img-src="require('./img/newera-achieve-superProject-4.png')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text class="text-indent">
               {{ superProject[3].brief }}
             </b-card-text>
-            <b-button href="#" variant="primary">查看详情</b-button>
+            <b-button :href="superProject[3].link" variant="primary">查看详情</b-button>
           </b-card>
         </b-col>
 
@@ -271,7 +271,7 @@
             <b-card-text class="text-indent">
               {{ bigGreatChina[0].brief }}
             </b-card-text>
-            <b-button href="#" variant="primary">查看详情</b-button>
+            <b-button :href="bigGreatChina[0].link" variant="primary">查看详情</b-button>
           </b-card>
         </b-col>
 
@@ -281,7 +281,7 @@
             <b-card-text class="text-indent">
               {{ bigGreatChina[1].brief }}
             </b-card-text>
-            <b-button href="#" variant="primary">查看详情</b-button>
+            <b-button :href="bigGreatChina[1].link" variant="primary">查看详情</b-button>
           </b-card>
         </b-col>
 
@@ -291,17 +291,17 @@
             <b-card-text class="text-indent">
               {{ bigGreatChina[2].brief }}
             </b-card-text>
-            <b-button href="#" variant="primary">查看详情</b-button>
+            <b-button :href="bigGreatChina[2].link" variant="primary">查看详情</b-button>
           </b-card>
         </b-col>
 
         <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
-          <b-card :title="bigGreatChina[3].title" :img-src="require('./img/newera-achieve-bigGreatChina-3.png')"
+          <b-card :title="bigGreatChina[3].title" :img-src="require('./img/newera-achieve-bigGreatChina-4.png')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text class="text-indent">
               {{ bigGreatChina[3].brief }}
             </b-card-text>
-            <b-button href="#" variant="primary">查看详情</b-button>
+            <b-button :href="bigGreatChina[3].link" variant="primary">查看详情</b-button>
           </b-card>
         </b-col>
 
@@ -320,7 +320,7 @@
             <b-card-text class="text-indent">
               {{ chinaBridge[0].brief }}
             </b-card-text>
-            <b-button href="#" variant="primary">查看详情</b-button>
+            <b-button :href="chinaBridge[0].link" variant="primary">查看详情</b-button>
           </b-card>
         </b-col>
 
@@ -330,7 +330,7 @@
             <b-card-text class="text-indent">
               {{ chinaBridge[1].brief }}
             </b-card-text>
-            <b-button href="#" variant="primary">查看详情</b-button>
+            <b-button :href="chinaBridge[1].link" variant="primary">查看详情</b-button>
           </b-card>
         </b-col>
 
@@ -340,17 +340,17 @@
             <b-card-text class="text-indent">
               {{ chinaBridge[2].brief }}
             </b-card-text>
-            <b-button href="#" variant="primary">查看详情</b-button>
+            <b-button :href="chinaBridge[2].link" variant="primary">查看详情</b-button>
           </b-card>
         </b-col>
 
         <b-col lg="3" sm="auto" class="mt-4 wow animated fadeInUp">
-          <b-card :title="chinaBridge[3].title" :img-src="require('./img/newera-achieve-chinaBridge-1.png')"
+          <b-card :title="chinaBridge[3].title" :img-src="require('./img/newera-achieve-chinaBridge-4.png')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text class="text-indent">
               {{ chinaBridge[3].brief }}
             </b-card-text>
-            <b-button href="#" variant="primary">查看详情</b-button>
+            <b-button :href="chinaBridge[3].link" variant="primary">查看详情</b-button>
           </b-card>
         </b-col>
 
@@ -424,8 +424,8 @@
           },
           {
             title: '大国重器——造血通脉',
-            brief: `中国是世界上最大的能源生产国和消费国。在这个关系国家繁荣发展、人民生活改善、社会长治久安的战略领域，中国的态度是明确的——着力推动能源生产利用方式变革，建设一个清洁低碳、安全高效的现代能源体系。备，正成为造血通脉的利器。`,
-            link: 'http://jingji.cctv.com/2018/02/26/ARTI8JaqmExXh36Ibvhaedk8180226.shtml'
+            brief: `中国是世界上最大的能源生产国和消费国。在这个关系国家繁荣发展、人民生活改善、社会长治久安的战略领域，中国的态度是明确的——着力推动能源生产利用方式变革，建设一个清洁低碳、安全高效的现代能源体系。这背后 ...`,
+            link: 'http://tv.cctv.com/2018/03/01/VIDE95KQu6Ks4w3sBUMqntQp180301.shtml'
           }
         ],
         aerialPhotoChina: [{

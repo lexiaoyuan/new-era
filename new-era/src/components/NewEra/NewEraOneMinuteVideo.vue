@@ -18,32 +18,32 @@
       </b-row>
       <b-row align-h="around">
         <b-col sm="auto" class="mt-3 wow animated fadeInUp">
-          <b-card :title="video[0].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
+          <b-card :title="video[0].title" :img-src="require('./img/newera-one-minute-video-guangxi.png')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text class="text-indent">
               {{ video[0].brief }}
             </b-card-text>
-            <b-button href="#" variant="primary">查看详情</b-button>
+            <b-button :href="video[0].link" variant="primary">查看详情</b-button>
           </b-card>
         </b-col>
 
         <b-col sm="auto" class="mt-3 wow animated fadeInUp">
-          <b-card :title="video[1].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
+          <b-card :title="video[1].title" :img-src="require('./img/newera-one-minute-video-guangxi.png')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text class="text-indent">
               {{ video[1].brief }}
             </b-card-text>
-            <b-button href="#" variant="primary">查看详情</b-button>
+            <b-button :href="video[1].link" variant="primary">查看详情</b-button>
           </b-card>
         </b-col>
 
         <b-col sm="auto" class="mt-3 wow animated fadeInUp">
-          <b-card :title="video[2].title" :img-src="require('./img/newera-one-minute-video-guangxi.jpg')"
+          <b-card :title="video[2].title" :img-src="require('./img/newera-one-minute-video-guangxi.png')"
             img-alt="Image" img-top tag="article" style="max-width: 23rem;" class="mb-2">
             <b-card-text class="text-indent">
               {{ video[2].brief }}
             </b-card-text>
-            <b-button href="#" variant="primary">查看详情</b-button>
+            <b-button :href="video[2].link" variant="primary">查看详情</b-button>
           </b-card>
         </b-col>
 
@@ -53,7 +53,7 @@
             <b-card-text class="text-indent">
               {{ video[3].brief }}
             </b-card-text>
-            <b-button href="#" variant="primary">查看详情</b-button>
+            <b-button :href="video[3].link" variant="primary">查看详情</b-button>
           </b-card>
         </b-col>
 
@@ -63,7 +63,7 @@
             <b-card-text class="text-indent">
               {{ video[4].brief }}
             </b-card-text>
-            <b-button href="#" variant="primary">查看详情</b-button>
+            <b-button :href="video[4].link" variant="primary">查看详情</b-button>
           </b-card>
         </b-col>
 
@@ -73,7 +73,7 @@
             <b-card-text class="text-indent">
               {{ video[5].brief }}
             </b-card-text>
-            <b-button href="#" variant="primary">查看详情</b-button>
+            <b-button :href="video[5].link" variant="primary">查看详情</b-button>
           </b-card>
         </b-col>
         
