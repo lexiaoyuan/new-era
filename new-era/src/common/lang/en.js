@@ -121,8 +121,7 @@ module.exports = {
     video_source: 'Video Source: '
   },
   NewYouthBrief: {
-    brief:
-    {
+    brief: {
       title: 'A nation will prosper only when its young people thrive.',
       content: `The younger generation has ideals, skills, and responsibilities. The country has a future and the nation has hope. The Chinese dream is historical, realistic, and future; it is our generation, and it is the younger generation. The Chinese dream of the great rejuvenation of the Chinese nation will eventually become a reality in the relay struggle of the young generation.`,
       evalute: `Youth is the most active and energetic force in the entire social force. The hope of the country lies in the youth and the future of the nation is in the youth.`

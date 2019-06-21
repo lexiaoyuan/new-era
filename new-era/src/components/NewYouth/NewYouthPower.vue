@@ -6,7 +6,8 @@
         <b-col class="ml-4 mr-4 mt-4">
           <fieldset class="layui-elem-field layui-field-title">
             <legend>
-              <h3 class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">{{ $t('NewYouthPower.name') }}</h3>
+              <h3 class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+                {{ $t('NewYouthPower.name') }}</h3>
             </legend>
           </fieldset>
         </b-col>
