@@ -6,7 +6,7 @@
         <b-col class="ml-4 mr-4 mt-4">
           <fieldset class="layui-elem-field layui-field-title">
             <legend>
-              <h3 class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">青春声音</h3>
+              <h3 class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">{{ $t('NewYouthVoice.name') }}</h3>
             </legend>
           </fieldset>
         </b-col>
@@ -15,9 +15,9 @@
       <!-- 新时代来啦动漫短视频 -->
       <b-row align-h="center">
         <b-col class="text-center mt-3">
-          <h4 class="text-center">新时代来啦动漫短视频</h4>
+          <h4 class="text-center">{{ $t('NewYouthVoice.newera_come') }}</h4>
           <small>
-            视频来源：<b-link href="http://cpc.people.com.cn/n1/2017/1109/c164113-29636182.html" target="_blank">中国共产党新闻网</b-link>
+            {{ $t('NewYouthVoice.video_source') }}<b-link href="http://cpc.people.com.cn/n1/2017/1109/c164113-29636182.html" target="_blank">中国共产党新闻网</b-link>
           </small>
         </b-col>
       </b-row>
@@ -29,9 +29,9 @@
       <!-- 美丽中国如何绘就 -->
       <b-row align-h="center">
         <b-col class="text-center mt-3">
-          <h4 class="text-center">美丽中国如何绘就</h4>
+          <h4 class="text-center">{{ $t('NewYouthVoice.beautiful_china') }}</h4>
           <small>
-            视频来源：<b-link href="http://theory.people.com.cn/n1/2018/0124/c148980-29783446.html" target="_blank">中国共产党新闻网</b-link>
+           {{ $t('NewYouthVoice.video_source') }}<b-link href="http://theory.people.com.cn/n1/2018/0124/c148980-29783446.html" target="_blank">中国共产党新闻网</b-link>
           </small>
         </b-col>
       </b-row>

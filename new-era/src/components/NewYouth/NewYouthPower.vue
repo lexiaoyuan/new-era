@@ -6,7 +6,7 @@
         <b-col class="ml-4 mr-4 mt-4">
           <fieldset class="layui-elem-field layui-field-title">
             <legend>
-              <h3 class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">青春力量</h3>
+              <h3 class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">{{ $t('NewYouthPower.name') }}</h3>
             </legend>
           </fieldset>
         </b-col>
@@ -18,26 +18,26 @@
             rounded>
           </b-img>
           <h5 class="mt-2 mb-2 wow animated fadeInUp">
-            <b-link :href="landForce.link" target="_blank">{{ landForce.title }}</b-link>
+            <b-link :href="landForce.link" target="_blank">{{ $t('NewYouthPower.landForce.title') }}</b-link>
           </h5>
-          <p class="text-center px-4 wow animated fadeInUp">{{ landForce.brief }}</p>
+          <p class="text-center px-4 wow animated fadeInUp">{{ $t('NewYouthPower.landForce.brief') }}</p>
         </b-col>
         <b-col cols="4" class="text-center">
           <b-img class="wow animated fadeInUp" :src="require('./new-youth-img/newyouth-power-navy.png')" fluid rounded>
           </b-img>
           <h5 class="mt-2 mb-2 wow animated fadeInUp">
-            <b-link :href="navy.link" target="_blank"> {{ navy.title }}</b-link>
+            <b-link :href="navy.link" target="_blank"> {{ $t('NewYouthPower.navy.title') }}</b-link>
           </h5>
-          <p class="text-center px-4 wow animated fadeInUp">{{ navy.brief }}</p>
+          <p class="text-center px-4 wow animated fadeInUp">{{ $t('NewYouthPower.navy.brief') }}</p>
         </b-col>
         <b-col cols="4" class="text-center">
           <b-img class="wow animated fadeInUp" :src="require('./new-youth-img/newyouth-power-airforce.png')" fluid
             rounded>
           </b-img>
           <h5 class="mt-2 mb-2 wow animated fadeInUp">
-            <b-link :href="airForce.link" target="_blank">{{ airForce.title }}</b-link>
+            <b-link :href="airForce.link" target="_blank">{{ $t('NewYouthPower.airForce.title') }}</b-link>
           </h5>
-          <p class="text-center px-4 wow animated fadeInUp">{{ airForce.brief }}</p>
+          <p class="text-center px-4 wow animated fadeInUp">{{ $t('NewYouthPower.airForce.brief') }}</p>
         </b-col>
       </b-row>
     </b-container>

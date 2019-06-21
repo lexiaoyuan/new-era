@@ -120,6 +120,38 @@ module.exports = {
     together_name: '2018 so "fighting" out, 2019 we "fighting" together',
     video_source: 'Video Source: '
   },
+  NewYouthBrief: {
+    brief:
+    {
+      title: 'A nation will prosper only when its young people thrive.',
+      content: `The younger generation has ideals, skills, and responsibilities. The country has a future and the nation has hope. The Chinese dream is historical, realistic, and future; it is our generation, and it is the younger generation. The Chinese dream of the great rejuvenation of the Chinese nation will eventually become a reality in the relay struggle of the young generation.`,
+      evalute: `Youth is the most active and energetic force in the entire social force. The hope of the country lies in the youth and the future of the nation is in the youth.`
+    }
+  },
+  NewYouthFlash: {
+    name: 'Youth Flash'
+  },
+  NewYouthVoice: {
+    name: 'Voice of youth',
+    newera_come: 'New era is coming, anime short video',
+    beautiful_china: 'How to paint beautiful China',
+    video_source: 'Video Source: '
+  },
+  NewYouthPower: {
+    name: 'Youth Power',
+    landForce: {
+      title: 'Chinese Army Recruitment Propaganda Film 2019',
+      brief: 'The war is invincible, all directions are invincible, the Chinese Army propaganda film is hot, the super-combustible force makes people feel hot blood boiling!',
+    },
+    navy: {
+      title: 'Navy Flight Recruitment Promotional Film 2019',
+      brief: 'The elite in the elite, the trump card in the trump card, the sharp knife in the sharp knife. Driving a "flying shark" to fight against the sea and the sky, bravely break into the ocean and go to the world, the Chinese Navy calls you unwilling to commonplace, fighting side by side, dreaming of the sea and the sky!',
+    },
+    airForce: {
+      title: 'China Air Force Enrollment Promotional Film 2019',
+      brief: 'Every era has heroes. They follow the times and create their own era. If you ask why you want to fly, just because you dream in the clouds. To all of you who dream of flying, supersonic!',
+    }
+  },
   BottomDeclare: {
     related_links: 'Related links:',
     statement: 'The material of this website comes from the Internet. If the content is infringed, please contact us to delete it.',
