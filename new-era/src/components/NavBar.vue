@@ -28,9 +28,10 @@
             <b-form-input size="sm" class="mr-sm-2" placeholder="搜索..."></b-form-input>
             <b-button variant="outline-success" size="sm" class="app-navbar-search-submit my-2 my-sm-0" type="submit">搜索</b-button>
           </b-nav-form> -->
-          <b-nav-text>Language:</b-nav-text>
-          <b-nav-item-dropdown class="app-navbar-language" :text="defalutLanguage" right>
-            <b-dropdown-item href="#" @click="changeLang">{{ selectLanguage }}</b-dropdown-item>
+          <b-nav-text>语言:</b-nav-text>
+          <b-nav-item-dropdown class="app-navbar-language" :text="language" right>
+            <b-dropdown-item href="#" @click="changeToChinese">{{ chinese }}</b-dropdown-item>
+            <b-dropdown-item href="#" @click="changeToEnglish">{{ english }}</b-dropdown-item>
           </b-nav-item-dropdown>
         </b-navbar-nav>
 
@@ -43,22 +44,17 @@
   export default {
     data () {
       return {
-        selectLanguage: 'English',
-        defalutLanguage: '中文'
+        language: 'Language',
+        chinese: '中文',
+        english: 'English'
       }
     },
     methods: {
-      changeLang: function () {
-        if (this.defalutLanguage === '中文') {
-          this.defalutLanguage = 'English';
-          this.selectLanguage = '中文';
-          this.$i18n.locale = 'en';
-        }
-        else {
-          this.defalutLanguage = '中文';
-          this.selectLanguage = 'English';
-          this.$i18n.locale = 'zh';
-        }
+      changeToChinese: function () {
+        this.$i18n.locale = 'zh';
+      },
+      changeToEnglish: function () {
+        this.$i18n.locale = 'en';
       }
     }
   }
