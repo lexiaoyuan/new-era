@@ -2,6 +2,11 @@
 
 - 作品查看链接：http://www.lgarden.club/newera/#/
 > 本作品以辉煌新时代，追梦新征程为主题，重点突出国家在方方面面取得的伟大成就与辉煌成果，展示新时代的新面貌，弘扬民族精神，激发民族自豪感，抒发爱党爱国情怀，厉害了，我的国。同时，展示出新时代新青年的追梦之心，努力争做追梦人，努力奔跑，追梦新征程。
+### 作品简介
+> 使用到的相关技术和一些库及插件：Vue+BootstrapVue+Webpack+Swiper+Layui+vue-router+Vuex+VueI18n+animate.css+wow.js+HTML+CSS+JavaScript
+
+> 使用Webpack进行打包，开发的SPA(single page web application,单页应用程序)，页面由一系列的组件构成
+
 ### 运行条件
 支持版本较新的主流浏览器：
 - Google Chrome 70+
@@ -9,6 +14,8 @@
 - Edge 40+
 - IE 10+
 - 在国产浏览器上的兼容性有一些布局上的小问题
+- 在屏幕分辨率 1366*768 上显示较好
+- 在手机浏览器中显示有小部分布局会有错位，整体上能基本兼容。
 
 ### 使用方法
 - 头部导航栏：首页、新时代、新征程、新青年、Language
