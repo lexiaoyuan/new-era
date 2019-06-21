@@ -11,7 +11,7 @@
         <b-col class="ml-4 mr-4 mt-4">
           <fieldset class="layui-elem-field layui-field-title">
             <legend>
-              <h3 class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">中国一分钟</h3>
+              <h3 class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">{{ $t('NewEraOneMinuteVideo.name') }}</h3>
             </legend>
           </fieldset>
         </b-col>
@@ -23,7 +23,7 @@
             <b-card-text class="text-indent">
               {{ video[0].brief }}
             </b-card-text>
-            <b-button :href="video[0].link" variant="primary">查看详情</b-button>
+            <b-button :href="video[0].link" variant="primary">{{ $t('NewEraOneMinuteVideo.see_details') }}</b-button>
           </b-card>
         </b-col>
 
@@ -33,7 +33,7 @@
             <b-card-text class="text-indent">
               {{ video[1].brief }}
             </b-card-text>
-            <b-button :href="video[1].link" variant="primary">查看详情</b-button>
+            <b-button :href="video[1].link" variant="primary">{{ $t('NewEraOneMinuteVideo.see_details') }}</b-button>
           </b-card>
         </b-col>
 
@@ -43,7 +43,7 @@
             <b-card-text class="text-indent">
               {{ video[2].brief }}
             </b-card-text>
-            <b-button :href="video[2].link" variant="primary">查看详情</b-button>
+            <b-button :href="video[2].link" variant="primary">{{ $t('NewEraOneMinuteVideo.see_details') }}</b-button>
           </b-card>
         </b-col>
 
@@ -53,7 +53,7 @@
             <b-card-text class="text-indent">
               {{ video[3].brief }}
             </b-card-text>
-            <b-button :href="video[3].link" variant="primary">查看详情</b-button>
+            <b-button :href="video[3].link" variant="primary">{{ $t('NewEraOneMinuteVideo.see_details') }}</b-button>
           </b-card>
         </b-col>
 
@@ -63,7 +63,7 @@
             <b-card-text class="text-indent">
               {{ video[4].brief }}
             </b-card-text>
-            <b-button :href="video[4].link" variant="primary">查看详情</b-button>
+            <b-button :href="video[4].link" variant="primary">{{ $t('NewEraOneMinuteVideo.see_details') }}</b-button>
           </b-card>
         </b-col>
 
@@ -73,7 +73,7 @@
             <b-card-text class="text-indent">
               {{ video[5].brief }}
             </b-card-text>
-            <b-button :href="video[5].link" variant="primary">查看详情</b-button>
+            <b-button :href="video[5].link" variant="primary">{{ $t('NewEraOneMinuteVideo.see_details') }}</b-button>
           </b-card>
         </b-col>
         

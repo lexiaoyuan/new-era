@@ -28,6 +28,36 @@ module.exports = {
   AppInfoWindow: {
     name: '新时代动态',
   },
+  NewEraOneMinuteBrief: {
+    brief: {
+      title: '中国一分钟',
+      content: `以“今天的中国，每一分钟会发生什么”为切入点，运用快速的剪辑、精美的画面、直观的数字，
+          展示党的十八大以来的五年中国在经济、社会、文化、科技等方面取得的历史性成就，
+          展现中国人民意气风发的精神风貌。`,
+      evalute: `一分钟很短，在伟大的中国却能干这么多事；一分钟很长，正在腾飞的中国需要做出多大的努力，
+          才能有今天快速发展的局面。为祖国发展加油助威，希望祖国越来越好!`
+    }
+  },
+  NewEraOneMinuteVideo: {
+    name: '中国一分钟',
+    see_details: '查看详情'
+  },
+  NewEraAchieve: {
+    name: '新时代的伟大成就',
+    brilliant_china: '辉煌中国',
+    major_country_diplomacy: '大国外交',
+    great_tool: '大国重器',
+    aerial_photo_china: '航拍中国',
+    super_project: '超级工程',
+    big_great_china: '美丽中国',
+    china_bridge: '中国桥梁',
+    see_details: '查看详情'
+  },
+  NewEraCall: {
+    name: '一起为新时代打Call',
+    already: '已有',
+    call: '点赞'
+  },
   BottomDeclare: {
     related_links: '相关链接：',
     statement: '本网站素材来自互联网，如内容有侵权，请联系删除',

@@ -5,7 +5,7 @@
         <b-col class="ml-4 mr-4 mt-4">
           <fieldset class="layui-elem-field layui-field-title">
             <legend>
-              <h3 class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">新时代的伟大成就</h3>
+              <h3 class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">{{ $t('NewEraAchieve.name') }}</h3>
             </legend>
           </fieldset>
         </b-col>
@@ -13,7 +13,7 @@
       <!-- 辉煌中国 -->
       <b-row>
         <b-col>
-          <h4 class="ml-5 mt-2 wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">辉煌中国</h4>
+          <h4 class="ml-5 mt-2 wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">{{ $t('NewEraAchieve.brilliant_china') }}</h4>
         </b-col>
       </b-row>
       <!-- 辉煌中国卡片介绍 -->
@@ -25,7 +25,7 @@
             <b-card-text class="text-indent">
               {{ brilliantChina[0].brief }}
             </b-card-text>
-            <b-button :href="brilliantChina[0].link" variant="primary">查看详情</b-button>
+            <b-button :href="brilliantChina[0].link" variant="primary">{{ $t('NewEraAchieve.see_details') }}</b-button>
           </b-card>
         </b-col>
 
@@ -35,7 +35,7 @@
             <b-card-text class="text-indent">
               {{ brilliantChina[1].brief }}
             </b-card-text>
-            <b-button :href="brilliantChina[1].link" variant="primary">查看详情</b-button>
+            <b-button :href="brilliantChina[1].link" variant="primary">{{ $t('NewEraAchieve.see_details') }}</b-button>
           </b-card>
         </b-col>
 
@@ -45,7 +45,7 @@
             <b-card-text class="text-indent">
               {{ brilliantChina[2].brief }}
             </b-card-text>
-            <b-button :href="brilliantChina[2].link" variant="primary">查看详情</b-button>
+            <b-button :href="brilliantChina[2].link" variant="primary">{{ $t('NewEraAchieve.see_details') }}</b-button>
           </b-card>
         </b-col>
 
@@ -55,7 +55,7 @@
             <b-card-text class="text-indent">
               {{ brilliantChina[3].brief }}
             </b-card-text>
-            <b-button :href="brilliantChina[3].link" variant="primary">查看详情</b-button>
+            <b-button :href="brilliantChina[3].link" variant="primary">{{ $t('NewEraAchieve.see_details') }}</b-button>
           </b-card>
         </b-col>
 
@@ -63,7 +63,7 @@
       <!-- 大国外交 -->
       <b-row>
         <b-col>
-          <h4 class="ml-5 mt-2 wow animated fadeInUp">大国外交</h4>
+          <h4 class="ml-5 mt-2 wow animated fadeInUp">{{ $t('NewEraAchieve.major_country_diplomacy') }}</h4>
         </b-col>
       </b-row>
       <!-- 大国外交卡片介绍 -->
@@ -74,7 +74,7 @@
             <b-card-text class="text-indent">
               {{ greatPowerPolitics[0].brief }}
             </b-card-text>
-            <b-button :href="greatPowerPolitics[0].link" variant="primary">查看详情</b-button>
+            <b-button :href="greatPowerPolitics[0].link" variant="primary">{{ $t('NewEraAchieve.see_details') }}</b-button>
           </b-card>
         </b-col>
 
@@ -84,7 +84,7 @@
             <b-card-text class="text-indent">
               {{ greatPowerPolitics[1].brief }}
             </b-card-text>
-            <b-button :href="greatPowerPolitics[1].link" variant="primary">查看详情</b-button>
+            <b-button :href="greatPowerPolitics[1].link" variant="primary">{{ $t('NewEraAchieve.see_details') }}</b-button>
           </b-card>
         </b-col>
 
@@ -94,7 +94,7 @@
             <b-card-text class="text-indent">
               {{ greatPowerPolitics[2].brief }}
             </b-card-text>
-            <b-button :href="greatPowerPolitics[2].link" variant="primary">查看详情</b-button>
+            <b-button :href="greatPowerPolitics[2].link" variant="primary">{{ $t('NewEraAchieve.see_details') }}</b-button>
           </b-card>
         </b-col>
 
@@ -104,14 +104,14 @@
             <b-card-text class="text-indent">
               {{ greatPowerPolitics[3].brief }}
             </b-card-text>
-            <b-button :href="greatPowerPolitics[3].link" variant="primary">查看详情</b-button>
+            <b-button :href="greatPowerPolitics[3].link" variant="primary">{{ $t('NewEraAchieve.see_details') }}</b-button>
           </b-card>
         </b-col>
       </b-row>
       <!-- 大国重器 -->
       <b-row>
         <b-col>
-          <h4 class="ml-5 mt-2 wow animated fadeInDown">大国重器</h4>
+          <h4 class="ml-5 mt-2 wow animated fadeInDown">{{ $t('NewEraAchieve.great_tool') }}</h4>
         </b-col>
       </b-row>
       <!-- 大国重器卡片介绍 -->
@@ -123,7 +123,7 @@
             <b-card-text class="text-indent">
               {{ greatTool[0].brief }}
             </b-card-text>
-            <b-button :href="greatTool[0].link" variant="primary">查看详情</b-button>
+            <b-button :href="greatTool[0].link" variant="primary">{{ $t('NewEraAchieve.see_details') }}</b-button>
           </b-card>
         </b-col>
 
@@ -133,7 +133,7 @@
             <b-card-text class="text-indent">
               {{ greatTool[1].brief }}
             </b-card-text>
-            <b-button :href="greatTool[1].link" variant="primary">查看详情</b-button>
+            <b-button :href="greatTool[1].link" variant="primary">{{ $t('NewEraAchieve.see_details') }}</b-button>
           </b-card>
         </b-col>
 
@@ -143,7 +143,7 @@
             <b-card-text class="text-indent">
               {{ greatTool[2].brief }}
             </b-card-text>
-            <b-button :href="greatTool[2].link" variant="primary">查看详情</b-button>
+            <b-button :href="greatTool[2].link" variant="primary">{{ $t('NewEraAchieve.see_details') }}</b-button>
           </b-card>
         </b-col>
 
@@ -153,7 +153,7 @@
             <b-card-text class="text-indent">
               {{ greatTool[3].brief }}
             </b-card-text>
-            <b-button :href="greatTool[3].link" variant="primary">查看详情</b-button>
+            <b-button :href="greatTool[3].link" variant="primary">{{ $t('NewEraAchieve.see_details') }}</b-button>
           </b-card>
         </b-col>
 
@@ -161,7 +161,7 @@
       <!-- 航拍中国 -->
       <b-row>
         <b-col>
-          <h4 class="ml-5 mt-2 wow animated fadeInUp">航拍中国</h4>
+          <h4 class="ml-5 mt-2 wow animated fadeInUp">{{ $t('NewEraAchieve.aerial_photo_china') }}</h4>
         </b-col>
       </b-row>
       <!-- 航拍中国卡片介绍 -->
@@ -173,7 +173,7 @@
             <b-card-text class="text-indent">
               {{ aerialPhotoChina[0].brief }}
             </b-card-text>
-            <b-button :href="aerialPhotoChina[0].link" variant="primary">查看详情</b-button>
+            <b-button :href="aerialPhotoChina[0].link" variant="primary">{{ $t('NewEraAchieve.see_details') }}</b-button>
           </b-card>
         </b-col>
 
@@ -183,7 +183,7 @@
             <b-card-text class="text-indent">
               {{ aerialPhotoChina[1].brief }}
             </b-card-text>
-            <b-button :href="aerialPhotoChina[1].link" variant="primary">查看详情</b-button>
+            <b-button :href="aerialPhotoChina[1].link" variant="primary">{{ $t('NewEraAchieve.see_details') }}</b-button>
           </b-card>
         </b-col>
 
@@ -193,7 +193,7 @@
             <b-card-text class="text-indent">
               {{ aerialPhotoChina[2].brief }}
             </b-card-text>
-            <b-button :href="aerialPhotoChina[2].link" variant="primary">查看详情</b-button>
+            <b-button :href="aerialPhotoChina[2].link" variant="primary">{{ $t('NewEraAchieve.see_details') }}</b-button>
           </b-card>
         </b-col>
 
@@ -203,7 +203,7 @@
             <b-card-text class="text-indent">
               {{ aerialPhotoChina[3].brief }}
             </b-card-text>
-            <b-button :href="aerialPhotoChina[3].link" variant="primary">查看详情</b-button>
+            <b-button :href="aerialPhotoChina[3].link" variant="primary">{{ $t('NewEraAchieve.see_details') }}</b-button>
           </b-card>
         </b-col>
 
@@ -211,7 +211,7 @@
       <!-- 超级工程 -->
       <b-row>
         <b-col>
-          <h4 class="ml-5 mt-2 wow animated fadeInDown">超级工程</h4>
+          <h4 class="ml-5 mt-2 wow animated fadeInDown">{{ $t('NewEraAchieve.super_project') }}</h4>
         </b-col>
       </b-row>
       <b-row align-h="around">
@@ -222,7 +222,7 @@
             <b-card-text class="text-indent">
               {{ superProject[0].brief }}
             </b-card-text>
-            <b-button :href="superProject[0].link" variant="primary">查看详情</b-button>
+            <b-button :href="superProject[0].link" variant="primary">{{ $t('NewEraAchieve.see_details') }}</b-button>
           </b-card>
         </b-col>
 
@@ -232,7 +232,7 @@
             <b-card-text class="text-indent">
               {{ superProject[1].brief }}
             </b-card-text>
-            <b-button :href="superProject[1].link" variant="primary">查看详情</b-button>
+            <b-button :href="superProject[1].link" variant="primary">{{ $t('NewEraAchieve.see_details') }}</b-button>
           </b-card>
         </b-col>
 
@@ -242,7 +242,7 @@
             <b-card-text class="text-indent">
               {{ superProject[2].brief }}
             </b-card-text>
-            <b-button :href="superProject[2].link" variant="primary">查看详情</b-button>
+            <b-button :href="superProject[2].link" variant="primary">{{ $t('NewEraAchieve.see_details') }}</b-button>
           </b-card>
         </b-col>
 
@@ -252,7 +252,7 @@
             <b-card-text class="text-indent">
               {{ superProject[3].brief }}
             </b-card-text>
-            <b-button :href="superProject[3].link" variant="primary">查看详情</b-button>
+            <b-button :href="superProject[3].link" variant="primary">{{ $t('NewEraAchieve.see_details') }}</b-button>
           </b-card>
         </b-col>
 
@@ -260,7 +260,7 @@
       <!-- 大美中国 -->
       <b-row>
         <b-col>
-          <h4 class="ml-5 mt-2 wow animated fadeInUp">大美中国</h4>
+          <h4 class="ml-5 mt-2 wow animated fadeInUp">{{ $t('NewEraAchieve.big_great_china') }}</h4>
         </b-col>
       </b-row>
       <b-row align-h="around">
@@ -271,7 +271,7 @@
             <b-card-text class="text-indent">
               {{ bigGreatChina[0].brief }}
             </b-card-text>
-            <b-button :href="bigGreatChina[0].link" variant="primary">查看详情</b-button>
+            <b-button :href="bigGreatChina[0].link" variant="primary">{{ $t('NewEraAchieve.see_details') }}</b-button>
           </b-card>
         </b-col>
 
@@ -281,7 +281,7 @@
             <b-card-text class="text-indent">
               {{ bigGreatChina[1].brief }}
             </b-card-text>
-            <b-button :href="bigGreatChina[1].link" variant="primary">查看详情</b-button>
+            <b-button :href="bigGreatChina[1].link" variant="primary">{{ $t('NewEraAchieve.see_details') }}</b-button>
           </b-card>
         </b-col>
 
@@ -291,7 +291,7 @@
             <b-card-text class="text-indent">
               {{ bigGreatChina[2].brief }}
             </b-card-text>
-            <b-button :href="bigGreatChina[2].link" variant="primary">查看详情</b-button>
+            <b-button :href="bigGreatChina[2].link" variant="primary">{{ $t('NewEraAchieve.see_details') }}</b-button>
           </b-card>
         </b-col>
 
@@ -301,7 +301,7 @@
             <b-card-text class="text-indent">
               {{ bigGreatChina[3].brief }}
             </b-card-text>
-            <b-button :href="bigGreatChina[3].link" variant="primary">查看详情</b-button>
+            <b-button :href="bigGreatChina[3].link" variant="primary">{{ $t('NewEraAchieve.see_details') }}</b-button>
           </b-card>
         </b-col>
 
@@ -309,7 +309,7 @@
       <!-- 中国桥梁 -->
       <b-row>
         <b-col>
-          <h4 class="ml-5 mt-2 wow animated fadeInDown">中国桥梁</h4>
+          <h4 class="ml-5 mt-2 wow animated fadeInDown">{{ $t('NewEraAchieve.china_bridge') }}</h4>
         </b-col>
       </b-row>
       <b-row align-h="around">
@@ -320,7 +320,7 @@
             <b-card-text class="text-indent">
               {{ chinaBridge[0].brief }}
             </b-card-text>
-            <b-button :href="chinaBridge[0].link" variant="primary">查看详情</b-button>
+            <b-button :href="chinaBridge[0].link" variant="primary">{{ $t('NewEraAchieve.see_details') }}</b-button>
           </b-card>
         </b-col>
 
@@ -330,7 +330,7 @@
             <b-card-text class="text-indent">
               {{ chinaBridge[1].brief }}
             </b-card-text>
-            <b-button :href="chinaBridge[1].link" variant="primary">查看详情</b-button>
+            <b-button :href="chinaBridge[1].link" variant="primary">{{ $t('NewEraAchieve.see_details') }}</b-button>
           </b-card>
         </b-col>
 
@@ -340,7 +340,7 @@
             <b-card-text class="text-indent">
               {{ chinaBridge[2].brief }}
             </b-card-text>
-            <b-button :href="chinaBridge[2].link" variant="primary">查看详情</b-button>
+            <b-button :href="chinaBridge[2].link" variant="primary">{{ $t('NewEraAchieve.see_details') }}</b-button>
           </b-card>
         </b-col>
 
@@ -350,7 +350,7 @@
             <b-card-text class="text-indent">
               {{ chinaBridge[3].brief }}
             </b-card-text>
-            <b-button :href="chinaBridge[3].link" variant="primary">查看详情</b-button>
+            <b-button :href="chinaBridge[3].link" variant="primary">{{ $t('NewEraAchieve.see_details') }}</b-button>
           </b-card>
         </b-col>
 
