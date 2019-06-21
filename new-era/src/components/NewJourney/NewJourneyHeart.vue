@@ -3,7 +3,7 @@
     <!-- 不忘初心，砥砺前行 -->
     <div class="d-flex justify-content-sm-around mt-5">
       <hr class="w-25 layui-bg-red" />
-      <h3 class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">不忘初心，砥砺前行</h3>
+      <h3 class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">{{ $t('NewJourneyHeart.name') }}</h3>
       <hr class="w-25 layui-bg-red">
     </div>
 
@@ -13,7 +13,7 @@
         <b-col class="ml-4 mr-4 mt-4">
           <fieldset class="layui-elem-field layui-field-title">
             <legend>
-              <h3 class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">红船精神</h3>
+              <h3 class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">{{ $t('NewJourneyHeart.red_ship_spirit_name') }}</h3>
             </legend>
           </fieldset>
         </b-col>
@@ -27,10 +27,10 @@
                 :src="require('./new-journey-img/new-journey-heart-redship-img1.png')" width="300" height="169"
                 alt="红船精神"></b-img>
               <h5 class="mt-0 mb-1 wow animated fadeInUp">
-                <b-link :href="redshipSpirit[0].link" target="_blank"> {{ redshipSpirit[0].title }}</b-link>
+                <b-link :href="redshipSpirit[0].link" target="_blank"> {{ $t('NewJourneyHeart.redshipSpirit[0].title') }}</b-link>
               </h5>
-              <p class="mb-0 wow animated fadeInUp">
-                {{ redshipSpirit[0].brief }}
+              <p class="text-indent mb-0 wow animated fadeInUp">
+                {{ $t('NewJourneyHeart.redshipSpirit[0].brief') }}
               </p>
             </b-media>
 
@@ -40,11 +40,11 @@
                 alt="红船精神"></b-img>
               <h5 class="mt-0 mb-1 wow animated fadeInUp">
                 <b-link :href="redshipSpirit[1].link" target="_blank">
-                  {{ redshipSpirit[1].title }}
+                  {{ $t('NewJourneyHeart.redshipSpirit[1].title') }}
                 </b-link>
               </h5>
-              <p class="mb-0 wow animated fadeInUp">
-                {{ redshipSpirit[1].brief }}
+              <p class="text-indent mb-0 wow animated fadeInUp">
+                {{ $t('NewJourneyHeart.redshipSpirit[1].brief') }}
               </p>
             </b-media>
 
@@ -53,10 +53,10 @@
                 :src="require('./new-journey-img/new-journey-heart-redship-img3.png')" width="300" height="169"
                 alt="红船精神"></b-img>
               <h5 class="mt-0 mb-1 wow animated fadeInUp">
-                <b-link :href="redshipSpirit[2].link" target="_blank">{{ redshipSpirit[2].title }}</b-link>
+                <b-link :href="redshipSpirit[2].link" target="_blank">{{ $t('NewJourneyHeart.redshipSpirit[2].title') }}</b-link>
               </h5>
-              <p class="mb-0 wow animated fadeInUp">
-                {{ redshipSpirit[2].brief }}
+              <p class="text-indent mb-0 wow animated fadeInUp">
+                {{ $t('NewJourneyHeart.redshipSpirit[2].brief') }}
               </p>
             </b-media>
           </ul>
@@ -68,7 +68,7 @@
         <b-col class="ml-4 mr-4 mt-4">
           <fieldset class="layui-elem-field layui-field-title">
             <legend>
-              <h3 class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">智慧中国</h3>
+              <h3 class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">{{ $t('NewJourneyHeart.wisdom_china_name') }}</h3>
             </legend>
           </fieldset>
         </b-col>
@@ -83,10 +83,10 @@
                 alt="智慧中国"></b-img>
 
               <h5 class="mt-0 mb-1 wow animated fadeInUp">
-                <b-link :href="wisdomChina[0].link" target="_blank">{{ wisdomChina[0].title }}</b-link>
+                <b-link :href="wisdomChina[0].link" target="_blank">{{ $t('NewJourneyHeart.wisdomChina[0].title') }}</b-link>
               </h5>
-              <p class="mb-0 wow animated fadeInUp">
-                {{ wisdomChina[0].brief }}
+              <p class="text-indent mb-0 wow animated fadeInUp">
+                {{ $t('NewJourneyHeart.wisdomChina[0].brief') }}
               </p>
             </b-media>
 
@@ -96,10 +96,10 @@
                 alt="智慧中国"></b-img>
 
               <h5 class="mt-0 mb-1 wow animated fadeInUp">
-                <b-link :href="wisdomChina[1].link" target="_blank">{{ wisdomChina[1].title }}</b-link>
+                <b-link :href="wisdomChina[1].link" target="_blank">{{ $t('NewJourneyHeart.wisdomChina[1].title') }}</b-link>
               </h5>
-              <p class="mb-0 wow animated fadeInUp">
-                {{ wisdomChina[1].brief }}
+              <p class="text-indent mb-0 wow animated fadeInUp">
+                {{ $t('NewJourneyHeart.wisdomChina[1].brief') }}
               </p>
             </b-media>
 
@@ -109,10 +109,10 @@
                 alt="智慧中国"></b-img>
 
               <h5 class="mt-0 mb-1 wow animated fadeInUp">
-                <b-link :href="wisdomChina[2].link" target="_blank">{{ wisdomChina[2].title }}</b-link>
+                <b-link :href="wisdomChina[2].link" target="_blank">{{ $t('NewJourneyHeart.wisdomChina[2].title') }}</b-link>
               </h5>
-              <p class="mb-0 wow animated fadeInUp">
-                {{ wisdomChina[2].brief }}
+              <p class="text-indent mb-0 wow animated fadeInUp">
+                {{ $t('NewJourneyHeart.wisdomChina[2].brief') }}
               </p>
             </b-media>
           </ul>
@@ -124,7 +124,7 @@
         <b-col class="ml-4 mr-4 mt-4">
           <fieldset class="layui-elem-field layui-field-title">
             <legend>
-              <h3 class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">中国高铁</h3>
+              <h3 class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">{{ $t('NewJourneyHeart.high_rail_name') }}</h3>
             </legend>
           </fieldset>
         </b-col>
@@ -139,10 +139,10 @@
                 alt="中国高铁"></b-img>
 
               <h5 class="mt-0 mb-1 animated fadeInUp">
-                <b-link :href="highRail[0].link" target="_blank">{{ highRail[0].title }}</b-link>
+                <b-link :href="highRail[0].link" target="_blank">{{ $t('NewJourneyHeart.highRail[0].title') }}</b-link>
               </h5>
-              <p class="mb-0 animated fadeInUp">
-                {{ highRail[0].brief }}
+              <p class="text-indent mb-0 animated fadeInUp">
+                {{ $t('NewJourneyHeart.highRail[0].brief') }}
               </p>
             </b-media>
 
@@ -152,10 +152,10 @@
                 alt="中国高铁"></b-img>
 
               <h5 class="mt-0 mb-1 animated fadeInUp">
-                <b-link :href="highRail[1].link" target="_blank">{{ highRail[1].title }}</b-link>
+                <b-link :href="highRail[1].link" target="_blank">{{ $t('NewJourneyHeart.highRail[1].title') }}</b-link>
               </h5>
-              <p class="mb-0 animated fadeInUp">
-                {{ highRail[1].brief }}
+              <p class="text-indent mb-0 animated fadeInUp">
+                {{ $t('NewJourneyHeart.highRail[1].brief') }}
               </p>
             </b-media>
 
@@ -165,10 +165,10 @@
                 alt="中国高铁"></b-img>
 
               <h5 class="mt-0 mb-1 animated fadeInUp">
-                <b-link :href="highRail[2].link" target="_blank">{{ highRail[2].title }}</b-link>
+                <b-link :href="highRail[2].link" target="_blank">{{ $t('NewJourneyHeart.highRail[2].title') }}</b-link>
               </h5>
-              <p class="mb-0 animated fadeInUp">
-                {{ highRail[2].brief }}
+              <p class="text-indent mb-0 animated fadeInUp">
+                {{ $t('NewJourneyHeart.highRail[2].brief') }}
               </p>
             </b-media>
           </ul>
@@ -180,7 +180,7 @@
         <b-col class="ml-4 mr-4 mt-4">
           <fieldset class="layui-elem-field layui-field-title">
             <legend>
-              <h3 class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">大国工匠</h3>
+              <h3 class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">{{ $t('NewJourneyHeart.crafts_men_name') }}</h3>
             </legend>
           </fieldset>
         </b-col>
@@ -195,10 +195,10 @@
                 alt="大国工匠"></b-img>
 
               <h5 class="mt-0 mb-1 wow animated fadeInUp">
-                <b-link :href="craftsmen[0].link" target="_blank">{{ craftsmen[0].title }}</b-link>
+                <b-link :href="craftsmen[0].link" target="_blank">{{ $t('NewJourneyHeart.craftsmen[0].title') }}</b-link>
               </h5>
-              <p class="mb-0 wow animated fadeInUp">
-                {{ craftsmen[0].brief }}
+              <p class="text-indent mb-0 wow animated fadeInUp">
+                {{ $t('NewJourneyHeart.craftsmen[0].brief') }}
               </p>
             </b-media>
 
@@ -208,10 +208,10 @@
                 alt="大国工匠"></b-img>
 
               <h5 class="mt-0 mb-1 wow animated fadeInUp">
-                <b-link :href="craftsmen[1].link" target="_blank">{{ craftsmen[1].title }}</b-link>
+                <b-link :href="craftsmen[1].link" target="_blank">{{ $t('NewJourneyHeart.craftsmen[1].title') }}</b-link>
               </h5>
-              <p class="mb-0 wow animated fadeInUp">
-                {{ craftsmen[1].brief }}
+              <p class="text-indent mb-0 wow animated fadeInUp">
+                {{ $t('NewJourneyHeart.craftsmen[1].brief') }}
               </p>
             </b-media>
 
@@ -221,10 +221,10 @@
                 alt="大国工匠"></b-img>
 
               <h5 class="mt-0 mb-1 wow animated fadeInUp">
-                <b-link :href="craftsmen[2].link" target="_blank">{{ craftsmen[2].title }}</b-link>
+                <b-link :href="craftsmen[2].link" target="_blank">{{ $t('NewJourneyHeart.craftsmen[2].title') }}</b-link>
               </h5>
-              <p class="mb-0 wow animated fadeInUp">
-                {{ craftsmen[2].brief }}
+              <p class="text-indent mb-0 wow animated fadeInUp">
+                {{ $t('NewJourneyHeart.craftsmen[2].brief') }}
               </p>
             </b-media>
           </ul>
@@ -274,14 +274,14 @@
         ],
         wisdomChina: [{
             title: '智慧中国：智慧前行',
-            brief: `<<智慧中国>>每集节目都会介绍一系列独特的本土创新产品，它们致力于打造全新的未来，
+            brief: `《智慧中国》每集节目都会介绍一系列独特的本土创新产品，它们致力于打造全新的未来，
       应对中国面临的一些重大环境与生活挑战，包括空气污染、水资源短缺、城市交通拥堵和食品安全。
       主持人与专家组将在节目中对这些发明进行评估，他们希望这些发明不仅能帮助中国，更能让世界以一个更加清洁、绿色、智能的姿态进入22世纪`,
             link: 'https://b23.tv/av9612271/p1'
           },
           {
             title: '智慧中国：智慧生活',
-            brief: `<<智慧中国>>将向观众展示中国在诸多世界级顶尖智囊的助力下领先全球的创新热潮。
+            brief: `《智慧中国》将向观众展示中国在诸多世界级顶尖智囊的助力下领先全球的创新热潮。
       这些发明创造正让中国变成一个更加清洁、环保、“智慧”的国家。
       短短几年间，曾经被称为“世界工厂”的中国就转变成为世界上最大的创业和创新实验室，成为一个把新技术推向未来的“智慧中国”。`,
             link: 'https://b23.tv/av9612271/p2'
@@ -353,4 +353,7 @@
     margin-bottom: 0px;
   }
 
+  .text-indent {
+    text-indent: 2rem;
+  }
 </style>

@@ -3,16 +3,16 @@
     <!-- 未来一起走 -->
     <div class="d-flex justify-content-sm-around mt-5">
       <hr class="w-25 layui-bg-red" />
-      <h3 class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">未来一起走</h3>
+      <h3 class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">{{ $t('NewJourneyTogether.name') }}</h3>
       <hr class="w-25 layui-bg-red">
     </div>
 
     <b-container>
       <b-row>
         <b-col class="text-center mt-3">
-          <h4>2018这样“拼”出来，2019我们一起“拼”</h4>
+          <h4>{{ $t('NewJourneyTogether.together_name') }}</h4>
           <small>
-            视频来源：<b-link href="http://www.gov.cn/xinwen/2019-03/02/content_5370104.htm" target="_blank">中国政府网</b-link>
+            {{ $t('NewJourneyTogether.video_source') }}<b-link href="http://www.gov.cn/xinwen/2019-03/02/content_5370104.htm" target="_blank">中国政府网</b-link>
           </small>
         </b-col>
       </b-row>

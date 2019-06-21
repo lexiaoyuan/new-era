@@ -55,6 +55,71 @@ module.exports = {
     already: 'Already',
     call: 'likes'
   },
+  NewJourneyHeart: {
+    name: `Don't Forget Why We Started and Move Forward Bravely`,
+    red_ship_spirit_name: 'Red Boat Spirit',
+    wisdom_china_name: 'Wisdom China',
+    high_rail_name: 'China High Speed Rail',
+    crafts_men_name: 'Great Country Craftsman',
+    redshipSpirit: [{
+        title: 'Red Boat Spirit',
+        brief: `The spirit of the Red Boat is the pioneering spirit of the world, the pioneering spirit of being bold, the spirit of struggle and the spirit of perseverance. It is the spirit of building the party for the public and loyalty to the people. In 1921, the first National Congress of the Communist Party of China was in Nanhu, Jiaxing, Zhejiang. The victory ended on a cruise ship and solemnly declared the birth of the Communist Party of China. This cruise ship thus obtained the name of the Chinese Revolutionary Annals, the Red Ship.`,
+      },
+      {
+        title: 'Red Boat Spirit',
+        brief: `This article introduces the corruption of the late Qing government triggered a wave of carving up China by Western powers. In modern times, Ao Jiaxiong, a person with lofty ideals in Jiaxing, and others established anti-imperialist and anti-feudal groups. In the ideological trend of learning from the West, Marxism-Leninism was introduced into China, Jiaxing's unique geographical position was influenced by new ideological trends, and Jiaxing, with a profound cultural foundation, made a good effort to accept more important events of the times. Prepare.`,
+      },
+      {
+        title: 'Red Boat Spirit',
+        brief: `This film is dedicated to the 90th anniversary of the founding of the Communist Party of China. A region is so famous that great events are usually or have been taking place. If an era has created remarkable achievements, there must be a great spirit as the motive force to inspire the people. Today Jiaxing is famous all over the world and has created remarkable achievements. As the birthplace of the Communist Party, this side inherited the spirit of the Red Ship handed down in the revolutionary era.`,
+      }
+    ],
+    wisdomChina: [{
+        title: 'Wisdom China: Wisdom Forward',
+        brief: `Each episode of Wisdom China introduces a series of unique indigenous innovative products that are committed to building a new future and meeting some of the major environmental and life challenges facing China, including air pollution, water shortages, urban traffic congestion and food safety. The presenters and expert groups will evaluate these inventions in the program. They hope that these inventions will not only help China, but also help the world enter the 22nd century in a cleaner, greener and smarter way.`,
+      },
+      {
+        title: 'Wisdom China: Wisdom Life',
+        brief: `"Wisdom China" will show the audience that China is leading the global innovation boom with the help of many world-class top think tanks. These inventions are turning China into a cleaner, more environmentally friendly and "smarter" country. In just a few years, China, once known as the "world factory", has become the world's largest laboratory of entrepreneurship and innovation, and a "smart China" that pushes new technologies to the future.`,
+      },
+      {
+        title: 'Wisdom China: Wisdom Planet',
+        brief: `"Wisdom China" will take the audience on a journey full of future colors and experience future-oriented frontier innovation. With the help of many world-class top think tanks, these inventions are turning China into a cleaner, more environmentally friendly and "smarter" country. We're going to travel all over China with Josh Klein, a technical expert from New York, to visit these innovators and learn about the technology and thinking behind these amazing innovations.`,
+      },
+    ],
+    highRail: [{
+        title: `China's High-speed Rail: Times Pulse`,
+        brief: `From the line engineering of bridges, tunnels, ballastless tracks, to traction power supply and train operation control systems, to the development of high-speed trains, China's high-speed railway has embarked on a unique innovation road to promote China's occupation in this field. The world's leading position.`,
+      },
+      {
+        title: `China's High- speed Rail: the Way to Innovation`,
+        brief: `From having nothing to building a complete and mature technological system, all of these are not only bumpy but also magnificent. As China enters the era of high-speed railway, high-speed railway not only builds a new time and space for people's life, but also provides high-quality public goods for society, and becomes a powerful driving force for economic and social development.`,
+      },
+      {
+        title: `China's High- speed Rail: A World - Wide Passage`,
+        brief: `
+　　   High-speed railway is the inevitable choice of China's modernization and urbanization process, as well as the inevitable result of China's realistic national strength development. China's high-speed railway, which brings miracles to history, strength to reality, enlightenment to the future, confidence to the nation, honor to the country and well-being to the people...`,
+      }
+    ],
+    craftsmen: [{
+        title: 'Great Country Craftsman: Dare Not Afraid',
+        brief: `The blade of the sword comes out of sharpening,They have different cultures and ages, but they all have a common shining point - loving their duties and devoting themselves to their professions. They love their work and never fear it. It's fatal to carve high-energy explosives with their bare hands and dance with UHV wires in the air. They bear the great responsibility of family life and people's livelihood, full of hardships and hardships that ordinary people can not bear, craftsmen are courageous, brave people are fearless!`,
+      },
+      {
+        title: 'Great Country Craftsman: Great Skills Are Infinite',
+        brief: `Craftsmen's work seems ordinary, but these work are accumulated over the years into the precious skills of quenching. Some people can stand on the same steel plate as kraft paper welding without a slight leak, some people can control the sealing accuracy of hair 1/50, and others feel as accurate as X-ray, amazing! The reason why they can dream ingeniously depends on Inheritance and specialization, and on concentration and sharpening.`,
+      },
+      {
+        title: 'Great Country Craftsman: Big Coincidence Is Hard To Break',
+        brief: `The spirit of craftsmanship is a kind of inheritance of culture; the ingenuity of building a dream, the inheritance is a kind of spirit, the interpretation is a pursuit, bearing the feelings of faith. For thousands of years, craftsmen have been obsessed with constantly carving their own products, constantly improving their crafts and enjoying the process of sublimation of their hands. They have strict requirements for the details, they pursue perfection and ultimate; their benefits are small, they are obsessed with results, ten years and one sword, they insist on the initial heart. Because the work is in shape, so the craftsman is at heart! From the juvenile spring breeze to the dagger's face, it is full of blood.`,
+      }
+    ]
+  },
+  NewJourneyTogether: {
+    name: `Let's go together in the future`,
+    together_name: '2018 so "fighting" out, 2019 we "fighting" together',
+    video_source: 'Video Source: '
+  },
   BottomDeclare: {
     related_links: 'Related links:',
     statement: 'The material of this website comes from the Internet. If the content is infringed, please contact us to delete it.',
