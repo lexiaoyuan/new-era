@@ -44,7 +44,7 @@
       </b-row>
       <b-row align-h="center">
         <b-col cols="8" sm="8">
-          <p>鄂ICP备18020158号 <span class="ml-4">{{ $t('BottomDeclare.email') }}2775886918@qq.com</span> </p>
+          <p><a href="http://www.beian.miit.gov.cn/">鄂ICP备18020158号</a><span class="ml-4">{{ $t('BottomDeclare.email') }}2775886918@qq.com</span> </p>
         </b-col>
       </b-row>
     </b-container>
