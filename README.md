@@ -1,6 +1,6 @@
 # 辉煌新时代 追梦新征程
 
-- 作品查看链接：http://www.lgarden.club/newera/#/
+- 作品查看链接：http://www.lexiaoyuan.club/newera/#/
 > 本作品以辉煌新时代，追梦新征程为主题，重点突出国家在方方面面取得的伟大成就与辉煌成果，展示新时代的新面貌，弘扬民族精神，激发民族自豪感，抒发爱党爱国情怀，厉害了，我的国。同时，展示出新时代新青年的追梦之心，努力争做追梦人，努力奔跑，追梦新征程。
 ### 作品简介
 > 使用到的相关技术和一些库及插件：Vue+BootstrapVue+Webpack+Swiper+Layui+vue-router+Vuex+VueI18n+animate.css+wow.js+HTML+CSS+JavaScript
